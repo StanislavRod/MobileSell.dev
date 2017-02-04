@@ -1,0 +1,154 @@
+/* цвет фона контента */
+
+.body, input.textfield, textarea, select {
+}
+
+/* тень подложки контента */
+.body {
+    border: 1px solid #DCDCDC;
+    background: #fff;
+}
+
+.header-bg {
+    background-color: none;
+    background: none;
+}
+
+/* цвет текста */
+body {
+    background: url(header_w.jpg) left top repeat-x #E5E4E4;
+    font: 12px/16px Arial, Helvetica, sans-serif;
+    color: #a4a4a5;
+}
+
+/* цвет ссылки */
+a {
+    color: #89702C;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* цвет заголовков блоков */
+
+/* фон заголовков блоков и меню кабинета клиента */
+.userbar, .set-meta, .set-title, .button, .button:hover {
+    color: #FFF;
+}
+
+/* цвет основных границ */
+.border-color, .userbar, .set-list, .set-list-item .img, .set-sidebar, .set-meta, .set-title, .set-block, .set, .table tfoot th, .table tfoot td, input.textfield, textarea, select {
+
+}
+
+.set, .set-block {
+    border: 0px;
+}
+
+.set-title {
+
+    background: #F5F5F5;
+    border-bottom: 1px solid #EBEBEB;
+    border-top: 1px solid #EBEBEB;
+    margin: 0px 0px 10px;
+    padding: 8px 14px 8px 14px;
+    color: #474649;
+
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.page-title {
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #414141;
+    margin-bottom: 15px;
+}
+
+.set-sidebar {
+    border: 0px;
+}
+
+.set-meta {
+    color: #414141;
+}
+
+.set-list-item .img {
+    margin-top: 3px;
+    width: 55px;
+    height: 55px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.phone {
+    color: #333;
+    margin-top: 22px;
+}
+
+.header {
+    height: 160px;
+}
+
+.shop-name {
+    float: left;
+    margin-top: 34px;
+}
+
+.shop-name a {
+    color: #333;
+}
+
+/*.shop-name #logo_bg {width:371px; height:107px; background:url(loaded_logo.png) no-repeat;display:block;}*/
+
+.button, .button:hover {
+    /*background: transparent url(bkg_butt.png) repeat-x right top;*/
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.header-bg {
+    height: 330px;
+}
+
+.set-list-item .description {
+    font-size: 12px;
+}
+
+.set-list-item .description {
+    width: 136px;
+}
+
+.past_step {
+    height: 23px;
+    overflow: hidden
+}
+
+.big {
+    font-size: 12px !important;
+    margin-left: 0px !important
+}
+
+table.variants small, table.variants small span {
+    color: #E43A7B !important
+}
+
+img#logo {
+    max-height: 165px;
+!important;
+}
+
+
+
+
+
+
+
+
+

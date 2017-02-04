@@ -1,16 +1,17 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Main extends CI_Controller {
+class Main extends CI_Controller
+{
 
     /**
      * Index Page for this controller.
      *
      * Maps to the following URL
-     * 		http://example.com/index.php/welcome
-     *	- or -
-     * 		http://example.com/index.php/welcome/index
-     *	- or -
+     *        http://example.com/index.php/welcome
+     *    - or -
+     *        http://example.com/index.php/welcome/index
+     *    - or -
      * Since this controller is set as the default controller in
      * config/routes.php, it's displayed at http://example.com/
      *
@@ -20,9 +21,21 @@ class Main extends CI_Controller {
      */
     public function index()
     {
-        $this->load->view('header');
+        $menu['name'] = $this->Menu_model->Menu()->result_array();
+
+        foreach ($menu['name'] as $key => $n) {
+
+            if ($this->uri->segment(1) == $n['name']) {
+                $menu['name'][$key]['active'] = 'class="active"';
+
+            } else {
+                $menu['name'][$key]['active'] = '';
+
+            }
+        }
+        $this->load->view('header', $menu);
         $this->load->view('main/index');
 //        $this->load->view('sidebar');
-        $this->load->view('footer');
+        $this->load->view('footer',$menu);
     }
 }

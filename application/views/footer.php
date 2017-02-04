@@ -2,15 +2,15 @@
     <div class="footer">
         <ul class="links">
 
-            <li class="first "><a href="/page/feedback" title="Обратная связь">Обратная связь</a></li>
+            <li class="first "><a href="/feedback" title="Обратная связь">Обратная связь</a></li>
 
-            <li class=" "><a href="/" class="active" title="Главная страница">Главная страница</a></li>
+            <li class=" "><a href="/"  title="Главная страница">Главная страница</a></li>
 
-            <li class=" "><a href="/client_account/login" title="Регистрация/Вход">Регистрация/Вход</a></li>
+            <li class=" "><a href="/login" title="Регистрация/Вход">Регистрация/Вход</a></li>
 
-            <li class=" "><a href="/page/deliver" title="Доставка">Доставка</a></li>
+            <li class=" "><a href="/deliver" title="Доставка">Доставка</a></li>
 
-            <li class=" last"><a href="/blogs/blog" title="Новости">Новости</a></li>
+            <li class=" last"><a href="/news" title="Новости">Новости</a></li>
 
         </ul>
         <br class="clear">

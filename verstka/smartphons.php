@@ -95,7 +95,7 @@
         
         <ul class="links">
           
-          <li class="first " ><a href="/"  title="Главная">Главная<span></span></a></li>
+          <li class="first " ><a href="/" title="Главная">Главная<span></span></a></li>
           
           <li class=" " ><a href="/page/доставка"  title="Условия доставки">Условия доставки<span></span></a></li>
           
@@ -1002,7 +1002,7 @@
         
         <li class="first "><a href="/page/feedback"  title="Обратная связь">Обратная связь</a></li>
         
-        <li class=" "><a href="/"  title="Главная страница">Главная страница</a></li>
+        <li class=" "><a href="/" title="Главная страница">Главная страница</a></li>
         
         <li class=" "><a href="/client_account/login"  title="Регистрация/Вход">Регистрация/Вход</a></li>
         

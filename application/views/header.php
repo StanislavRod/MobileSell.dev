@@ -303,5 +303,63 @@
     <link rel="stylesheet" type="text/css"
           href="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/styles-ie.css" media="all"/>
     <![endif]-->
+    <?if($this->uri->segment(1)=='login'):?>
+    <link href="/served_assets/css/checkout-69769e705ab952b0c34379965d46141c.css" media="screen" rel="stylesheet"
+          type="text/css"/>
+    <link href='/served_assets/css/custom_checkout.css' rel='stylesheet'>
+    <?endif;?>
 </head>
 <body class="cms-index-index cms-homecatalog-product-view">
+<noscript>
+    <div class="noscript">
+        <div class="noscript-inner">
+            <p><strong>JavaScript seem to be disabled in your browser.</strong></p>
+            <p>You must have JavaScript enabled in your browser to utilize the functionality of this website.</p>
+        </div>
+    </div>
+</noscript>
+
+<div class="header-container">
+    <div class="page">
+        <div class="header"><a href="/" title="Название магазина" class="logo clearfix"><img
+                        src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/loaded_logo.png"
+                        alt="Название магазина"/> </a>
+            <div class="quick-access">
+                <div class="clear"></div>
+                <div class="welcome-msg"><span><span>(495) 123-45-67</span></span></div>
+                <div class="clear"></div>
+
+                <ul class="links">
+                    <? array_pop($name);
+                    foreach ($name as $n):?>
+                        <li class="">
+                            <a <?= $n['active'] ?> href="/<?= $n['link'] ?>" title="Главная"><?= $n['name'] ?>
+                                <span></span>
+                            </a>
+                        </li>
+                    <? endforeach; ?>
+                </ul>
+
+                <div class="clear"></div>
+                <form id="search_mini_form" action="/search" method="get">
+
+                    <div class="form-search">
+                        <label for="search">Поиск:</label>
+                        <input id="search" type="text" name="q"
+                               onfocus="if (this.value == 'поисковый запрос') { this.value=''; }"
+                               onblur="if (this.value == '') { this.value='поисковый запрос' }" value="поисковый запрос"
+                               class="input-text"/>
+                        <button type="submit" title="Поиск" class="button"><span><span>Поиск</span></span></button>
+                    </div>
+                </form>
+            </div>
+            <div class="header-cart">
+                <a href="/cart_items">Корзина:</a>
+
+                <p>товаров: <span class="cart_items_count">1</span></p>
+                <p>сумма: <span class="cart_items_price"> 9990&nbsp;руб</span></p>
+
+            </div>
+        </div>
+    </div>
+</div>

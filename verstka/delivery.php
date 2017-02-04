@@ -1,9 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"fd0d8ed08d","applicationID":"40346406","transactionName":"c14IQRMOXV4EQR1DUF9BFRoRE15WFFBGQxdZXwJQGVtcWxJA","queueTime":1,"applicationTime":342,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"fd0d8ed08d","applicationID":"40346406","transactionName":"c14IQRMOXV4EQR1DUF9BFRoRAFZXEhxBWFdHCwtcEhI=","queueTime":2,"applicationTime":244,"agent":""}</script>
 <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
-<meta data-config="{&quot;money_with_currency_format&quot;:{&quot;delimiter&quot;:&quot;&quot;,&quot;separator&quot;:&quot;.&quot;,&quot;format&quot;:&quot;%n&amp;nbsp;%u&quot;,&quot;unit&quot;:&quot;\u0440\u0443\u0431&quot;,&quot;show_price_without_cents&quot;:0},&quot;currency_code&quot;:&quot;RUR&quot;,&quot;new_ya_metrika&quot;:null,&quot;ecommerce_data_container&quot;:&quot;dataLayer&quot;,&quot;common_js_version&quot;:null,&quot;account_id&quot;:79355,&quot;hide_items_out_of_stock&quot;:false,&quot;enable_comparison&quot;:true,&quot;locale&quot;:&quot;ru&quot;,&quot;client_group&quot;:null}" name="shop-config" /><head><meta name='js-evnvironment' content='production' /><meta name='default-locale' content='ru' /><meta name='insales-redefined-api-methods' content="[]" /><script src="/served_assets/js/shop_bundle-ce306071be6801f7eae474fcd5d36b88.js" type="text/javascript"></script>
+<meta data-config="{&quot;money_with_currency_format&quot;:{&quot;delimiter&quot;:&quot;&quot;,&quot;separator&quot;:&quot;.&quot;,&quot;format&quot;:&quot;%n&amp;nbsp;%u&quot;,&quot;unit&quot;:&quot;\u0440\u0443\u0431&quot;,&quot;show_price_without_cents&quot;:0},&quot;currency_code&quot;:&quot;RUR&quot;,&quot;new_ya_metrika&quot;:null,&quot;ecommerce_data_container&quot;:&quot;dataLayer&quot;,&quot;common_js_version&quot;:null,&quot;account_id&quot;:79355,&quot;hide_items_out_of_stock&quot;:false,&quot;enable_comparison&quot;:true,&quot;locale&quot;:&quot;ru&quot;,&quot;client_group&quot;:null}" name="shop-config" /><head><meta name='js-evnvironment' content='production' /><meta name='default-locale' content='ru' /><meta name='insales-redefined-api-methods' content="[]" /><script src="/served_assets/new_shop_js/shop_bundle-ce306071be6801f7eae474fcd5d36b88.js" type="text/javascript"></script>
         <!--InsalesCounter -->
         <script type="text/javascript">
         if (typeof(__id) == 'undefined') {
@@ -18,20 +18,20 @@
         </script>
         <!-- /InsalesCounter -->
 
-<title>Аксессуары</title>
+<title>Доставка</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Аксессуары" />
-<meta name="keywords" content="Аксессуары" />
+<meta name="description" content="Доставка" />
+<meta name="keywords" content="Доставка" />
 <meta name="robots" content="index,follow" />
-<link rel="stylesheet" type="text/css" href="/js/theme.css" media="all">
+<link rel="stylesheet" type="text/css" href="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/theme.css" media="all">
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-<script type="text/javascript" src="/served_assets/js/empty.js"></script>
-<script type="text/javascript" src="/js/jq.slider.js"></script>
-<script type="text/javascript" src="/js/jq.cart.js"></script>
-<script type="text/javascript" src="/js/shadowbox.js"></script>
-<script type="text/javascript" src="/js/jquery.MetaData.js"></script>
-<script type="text/javascript" src="/js/rating.js"></script>
-<script type="text/javascript" src="/js/jq.theme.js"></script>
+<script type="text/javascript" src="/served_assets/empty.js"></script>
+<script type="text/javascript" src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/jq.slider.js"></script>
+<script type="text/javascript" src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/jq.cart.js"></script>
+<script type="text/javascript" src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/shadowbox.js"></script>
+<script type="text/javascript" src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/jquery.MetaData.js"></script>
+<script type="text/javascript" src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/rating.js"></script>  
+<script type="text/javascript" src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/jq.theme.js"></script>
 <script type="text/javascript">$.fn.rating.options.cancel = 'Сбросить';</script>
 <script type="text/javascript">var cv_currency_format = "{\"delimiter\":\"\",\"separator\":\".\",\"format\":\"%n&nbsp;%u\",\"unit\":\"\\u0440\\u0443\\u0431\",\"show_price_without_cents\":0}";</script>
 <script type="text/javascript">
@@ -73,7 +73,7 @@
 </script>
 
 <!--[if lt IE 8]>
-<link rel="stylesheet" type="text/css" href="/js/styles-ie.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/styles-ie.css" media="all" />
 <![endif]-->
 </head>
 <body class=" catalog-category-view">
@@ -87,7 +87,7 @@
 </noscript>
 <div class="header-container">
   <div class="page">
-    <div class="header"> <a href="/" title="Название магазина" class="logo clearfix"><img src="/js/loaded_logo.png" alt="Название магазина" /> </a>
+    <div class="header"> <a href="/" title="Название магазина" class="logo clearfix"><img src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/loaded_logo.png" alt="Название магазина" /> </a>
       <div class="quick-access">
         <div class="clear"></div>
         <div class="welcome-msg"><span><span>(495) 123-45-67</span></span></div>
@@ -95,9 +95,9 @@
         
         <ul class="links">
           
-          <li class="first " ><a href="/"  title="Главная">Главная<span></span></a></li>
+          <li class="first " ><a href="/" title="Главная">Главная<span></span></a></li>
           
-          <li class=" " ><a href="/page/доставка"  title="Условия доставки">Условия доставки<span></span></a></li>
+          <li class=" " ><a href="/page/доставка" class="active" title="Условия доставки">Условия доставки<span></span></a></li>
           
           <li class=" " ><a href="/client_account/login"  title="Личный кабинет">Личный кабинет<span></span></a></li>
           
@@ -144,7 +144,7 @@
           </ul>
            </li>
         
-        <li class="active  last level-top"> <a href="/collection/Aksessuary" class=" active level-top"><span>Аксессуары</span></a>  </li>
+        <li class="  last level-top"> <a href="/collection/Aksessuary" class="  level-top"><span>Аксессуары</span></a>  </li>
         
       </ul>
     </div>
@@ -158,17 +158,11 @@
 <div class="breadcrumbs">
 <ul>
   <li><a href="/" rel="nofollow">Главная</a> <span>&nbsp;</span> </li>
+  
+  <li><strong>Доставка</strong></li>
     
   
   
-    
-       
-    
-     
-      
-       <li><strong>Аксессуары</strong></li>
-      
-       
     
   
   
@@ -186,7 +180,8 @@
           </div>
           <div class="content-box">
             <div class="full-width">
-              <div class="col-main"> <div class="page-title category-title">
+              <div class="col-main"> 
+<div class="page-title category-title">
   <div class="bot-bg">
     <div class="left-bg">
       <div class="right-bg">
@@ -194,7 +189,7 @@
           <div class="right-top">
             <div class="left-bot">
               <div class="right-bot">
-                <h1>Аксессуары</h1>
+                <h1>Доставка</h1>
               </div>
             </div>
           </div>
@@ -203,286 +198,22 @@
     </div>
   </div>
 </div>
-
- 	
-<div class="category-products"> 
-<div class="toolbar-block">
-                      <div class="bot-bg">
-                        <div class="left-bg">
-                          <div class="right-bg">
-                            <div class="left-top">
-                              <div class="right-top">
-                                <div class="left-bot">
-                                  <div class="right-bot">
-<div class="toolbar">
-  <form method="get">
-    <div class="pager">
-      <p class="amount"><strong>3</strong> товар(ов) </p>
-      
-      <div class="limiter">
-        <label>по</label>
-        <select name="page_size" id="page_size" onchange="$(this).parent().parent().parent().submit();">
-				<option  value='9'>9</option>
-				<option  value='12'>12</option>
-                <option  value='24'>24</option>
-                <option  value='48'>48</option>
-			    <option  value='96'>96</option>
-				<option  value='Все'>1000</option>   
-        </select>
-        на странице </div>
-    </div>
-    <div class="sorter">
-      <p class="view-mode">
-        <label>Вид:</label>
-        <a href="javascript:;" title="Переключить в режим отображения 'Сетка'" class="grid selected" data-mode="grid">Сетка</a><a href="javascript:;" title="Переключить в режим отображения 'Список'" class="list" data-mode="list">Список</a> </p>
-      <div class="sort-by">
-        <label>Сортировать:</label>
-        <select name="order" onchange="$(this).parent().parent().parent().submit();">
-            
-			<option  value=''></option>
-			<option  value='price'>По возрастанию цены</option>
-			<option  value='descending_price'>По убыванию цены</option>
-			<option  value='title'>Названию</option>  
-        </select>
-      </div>
-    </div>
-  </form>
-</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-  <ul class="products-grid first last">
-            
-     
-                    <li class="item first">
-                      <div class="main-box">
-                        <div class="bot-bg">
-                          <div class="left-bg">
-                            <div class="right-bg">
-                              <div class="left-top">
-                                <div class="right-top">
-                                  <div class="left-bot">
-                                    <div class="right-bot">  <a href="/product/kabel-dlya-iphoneipadipod-apple-30-pinusb-20-ma591gb" title="Кабель для iPhone/iPad/iPod Apple 30-pin/USB 2.0 MA591G/B" class="product-image"><img src="https://static12.insales.ru/images/products/1/4217/13021305/compact_iPhone_iPod_USB_Cable.jpg" alt="Кабель для iPhone/iPad/iPod Apple 30-pin/USB 2.0 MA591G/B" /></a>
-                                      <div class="grid-block">
-                                        <div class="bot-bg">
-                                          <div class="left-bg">
-                                            <div class="right-bg">
-                                              <div class="left-top">
-                                                <div class="right-top">
-                                                  <div class="left-bot">
-                                                    <div class="right-bottom">
-                                                      <div class="ie-fix">
-                                                        <div class="product-box">
-                                                          <h2 class="product-name"><a href="/product/kabel-dlya-iphoneipadipod-apple-30-pinusb-20-ma591gb" title="Кабель для iPhone/iPad/iPod Apple 30-pin/USB 2.0 MA591G/B">Кабель для iPhone/iPad/iPod Apple 30-pin/USB 2....</a></h2>
-														          <div class="ratings">  
-           </div>
-		  
-                                                       
-													   
-		<div class="price-box clearfix"> <span class="regular-price"> <span class="price">1000&nbsp;руб</span> </span> </div>
-        <div class="actions">
-		
-          <form action="/cart_items" method="post">
-            <input type="hidden" name="variant_id" value="20405008" />
-            <button type="button" title="В Корзину" class="button btn-cart addtocart"> <span> <span>В Корзину</span> </span> </button>
-          </form>
-          
-             <div class="clear"></div>
-          
-          
-           </div>
-
-                                                          <div class="clear"></div>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-            
-     
-                    <li class="item ">
-                      <div class="main-box">
-                        <div class="bot-bg">
-                          <div class="left-bg">
-                            <div class="right-bg">
-                              <div class="left-top">
-                                <div class="right-top">
-                                  <div class="left-bot">
-                                    <div class="right-bot">  <a href="/product/klip-keys-belkin-dlya-iphone-5-chernyy" title="Клип-кейс Belkin для iPhone 5 (черный)" class="product-image"><img src="https://static12.insales.ru/images/products/1/4597/13021685/compact_133502_o.jpg" alt="Клип-кейс Belkin для iPhone 5 (черный)" /></a>
-                                      <div class="grid-block">
-                                        <div class="bot-bg">
-                                          <div class="left-bg">
-                                            <div class="right-bg">
-                                              <div class="left-top">
-                                                <div class="right-top">
-                                                  <div class="left-bot">
-                                                    <div class="right-bottom">
-                                                      <div class="ie-fix">
-                                                        <div class="product-box">
-                                                          <h2 class="product-name"><a href="/product/klip-keys-belkin-dlya-iphone-5-chernyy" title="Клип-кейс Belkin для iPhone 5 (черный)">Клип-кейс Belkin для iPhone 5 (черный)</a></h2>
-														          <div class="ratings">  
-           </div>
-		  
-                                                       
-													   
-		<div class="price-box clearfix"> <span class="regular-price"> <span class="price">1990&nbsp;руб</span> </span> </div>
-        <div class="actions">
-		
-          <form action="/cart_items" method="post">
-            <input type="hidden" name="variant_id" value="20405377" />
-            <button type="button" title="В Корзину" class="button btn-cart addtocart"> <span> <span>В Корзину</span> </span> </button>
-          </form>
-          
-             <div class="clear"></div>
-          
-          
-           </div>
-
-                                                          <div class="clear"></div>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-            
-     
-                    <li class="item last">
-                      <div class="main-box">
-                        <div class="bot-bg">
-                          <div class="left-bg">
-                            <div class="right-bg">
-                              <div class="left-top">
-                                <div class="right-top">
-                                  <div class="left-bot">
-                                    <div class="right-bot">  <a href="/product/chehol-dlya-iphone-4" title="Чехол для iPhone 4" class="product-image"><img src="https://static12.insales.ru/images/products/1/4847/13021935/compact_bIMG_2314.jpg" alt="Чехол для iPhone 4" /></a>
-                                      <div class="grid-block">
-                                        <div class="bot-bg">
-                                          <div class="left-bg">
-                                            <div class="right-bg">
-                                              <div class="left-top">
-                                                <div class="right-top">
-                                                  <div class="left-bot">
-                                                    <div class="right-bottom">
-                                                      <div class="ie-fix">
-                                                        <div class="product-box">
-                                                          <h2 class="product-name"><a href="/product/chehol-dlya-iphone-4" title="Чехол для iPhone 4">Чехол для iPhone 4</a></h2>
-														          <div class="ratings">  
-           </div>
-		  
-                                                       
-													   
-		<div class="price-box clearfix"> <span class="regular-price"> <span class="price">1000&nbsp;руб</span> </span> </div>
-        <div class="actions">
-		
-          <form action="/cart_items" method="post">
-            <input type="hidden" name="variant_id" value="20405526" />
-            <button type="button" title="В Корзину" class="button btn-cart addtocart"> <span> <span>В Корзину</span> </span> </button>
-          </form>
-          
-             <div class="clear"></div>
-          
-          
-           </div>
-
-                                                          <div class="clear"></div>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-    
-  </ul>
-  <ul class="products-list first last">
-            
-     
-<li class="item odd">
-  <div class="main-box">
-    <div class="bot-bg">
-      <div class="left-bg">
-        <div class="right-bg">
-          <div class="left-top">
-            <div class="right-top">
-              <div class="left-bot">
-                <div class="right-bot">
-                 <a href="/product/kabel-dlya-iphoneipadipod-apple-30-pinusb-20-ma591gb" title="Кабель для iPhone/iPad/iPod Apple 30-pin/USB 2.0 MA591G/B" class="product-image"> <img src="https://static12.insales.ru/images/products/1/4217/13021305/compact_iPhone_iPod_USB_Cable.jpg"  alt="Кабель для iPhone/iPad/iPod Apple 30-pin/USB 2.0 MA591G/B"> </a>
-                  <div class="product-shop">
-                    <div class="f-fix">
-                      <h2 class="product-name">
-                       <a href="/product/kabel-dlya-iphoneipadipod-apple-30-pinusb-20-ma591gb" title="Кабель для iPhone/iPad/iPod Apple 30-pin/USB 2.0 MA591G/B">Кабель для iPhone/iPad/iPod Apple 30-pin/USB 2.0 MA591G/B</a>
-                      </h2>
-					          <div class="ratings"> 
-          <p class="rating-links"> 
-            </p>
-        </div>
-             <div class="price-box"> <span class="regular-price"> <span class="price">1000&nbsp;руб</span>  </span> </div>
-                       
-                         
-        <form action="/cart_items" method="post">
-          <input type="hidden" name="variant_id" value="20405008" />
-          <button type="button" title="В Корзину" class="button btn-cart addtocart"> <span> <span>В Корзину</span> </span> </button>
-        </form>
-         
-                       
-                    </div>
-                  </div>
-                  <div class="clear"></div>
-                  <div class="desc std">
-                   
-                    <a href="/product/kabel-dlya-iphoneipadipod-apple-30-pinusb-20-ma591gb" title="Подробнее" class="link-learn">Подробнее</a>
-                  </div>
-				  
-			 
-				     
-					  
-				  
-                </div>
+<div class="main-box">
+  <div class="bot-bg">
+    <div class="left-bg">
+      <div class="right-bg">
+        <div class="left-top">
+          <div class="right-top">
+            <div class="left-bot">
+              <div class="right-bot">
+                <div class="editor"><p>Наш интернет-магазин осуществляет доставку по Москве и регионам России:</p>
+<ol>
+<li>Курьерская доставка по Москве &mdash; 200 руб.</li>
+<li>Почтовая доставка по России &mdash; от 150 руб. в зависимости от адреса доставки.</li>
+</ol>
+<p>&nbsp;</p>
+<p><em>Эту страницу можно отредактировать в разделе Сайт-&gt;Меню и страницы.</em></p>
+<p><em>Настроить расчёт стоимости доставки при оформлении заказа можно настроить в разделе Настройки -&gt; Доставка.<br /></em></p> </div>
               </div>
             </div>
           </div>
@@ -490,165 +221,8 @@
       </div>
     </div>
   </div>
-</li>
-            
-     
-<li class="item odd">
-  <div class="main-box">
-    <div class="bot-bg">
-      <div class="left-bg">
-        <div class="right-bg">
-          <div class="left-top">
-            <div class="right-top">
-              <div class="left-bot">
-                <div class="right-bot">
-                 <a href="/product/klip-keys-belkin-dlya-iphone-5-chernyy" title="Клип-кейс Belkin для iPhone 5 (черный)" class="product-image"> <img src="https://static12.insales.ru/images/products/1/4597/13021685/compact_133502_o.jpg"  alt="Клип-кейс Belkin для iPhone 5 (черный)"> </a>
-                  <div class="product-shop">
-                    <div class="f-fix">
-                      <h2 class="product-name">
-                       <a href="/product/klip-keys-belkin-dlya-iphone-5-chernyy" title="Клип-кейс Belkin для iPhone 5 (черный)">Клип-кейс Belkin для iPhone 5 (черный)</a>
-                      </h2>
-					          <div class="ratings"> 
-          <p class="rating-links"> 
-            </p>
-        </div>
-             <div class="price-box"> <span class="regular-price"> <span class="price">1990&nbsp;руб</span>  </span> </div>
-                       
-                         
-        <form action="/cart_items" method="post">
-          <input type="hidden" name="variant_id" value="20405377" />
-          <button type="button" title="В Корзину" class="button btn-cart addtocart"> <span> <span>В Корзину</span> </span> </button>
-        </form>
-         
-                       
-                    </div>
-                  </div>
-                  <div class="clear"></div>
-                  <div class="desc std">
-                   
-                    <a href="/product/klip-keys-belkin-dlya-iphone-5-chernyy" title="Подробнее" class="link-learn">Подробнее</a>
-                  </div>
-				  
-			 
-				     
-					  
-				  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</li>
-            
-     
-<li class="item odd">
-  <div class="main-box">
-    <div class="bot-bg">
-      <div class="left-bg">
-        <div class="right-bg">
-          <div class="left-top">
-            <div class="right-top">
-              <div class="left-bot">
-                <div class="right-bot">
-                 <a href="/product/chehol-dlya-iphone-4" title="Чехол для iPhone 4" class="product-image"> <img src="https://static12.insales.ru/images/products/1/4847/13021935/compact_bIMG_2314.jpg"  alt="Чехол для iPhone 4"> </a>
-                  <div class="product-shop">
-                    <div class="f-fix">
-                      <h2 class="product-name">
-                       <a href="/product/chehol-dlya-iphone-4" title="Чехол для iPhone 4">Чехол для iPhone 4</a>
-                      </h2>
-					          <div class="ratings"> 
-          <p class="rating-links"> 
-            </p>
-        </div>
-             <div class="price-box"> <span class="regular-price"> <span class="price">1000&nbsp;руб</span>  </span> </div>
-                       
-                         
-        <form action="/cart_items" method="post">
-          <input type="hidden" name="variant_id" value="20405526" />
-          <button type="button" title="В Корзину" class="button btn-cart addtocart"> <span> <span>В Корзину</span> </span> </button>
-        </form>
-         
-                       
-                    </div>
-                  </div>
-                  <div class="clear"></div>
-                  <div class="desc std">
-                   
-                    <a href="/product/chehol-dlya-iphone-4" title="Подробнее" class="link-learn">Подробнее</a>
-                  </div>
-				  
-			 
-				     
-					  
-				  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</li>
-    
-  </ul>
-  <div class="toolbar-bottom"> 
-<div class="toolbar-block">
-                      <div class="bot-bg">
-                        <div class="left-bg">
-                          <div class="right-bg">
-                            <div class="left-top">
-                              <div class="right-top">
-                                <div class="left-bot">
-                                  <div class="right-bot">
-<div class="toolbar">
-  <form method="get">
-    <div class="pager">
-      <p class="amount"><strong>3</strong> товар(ов) </p>
-      
-      <div class="limiter">
-        <label>по</label>
-        <select name="page_size" id="page_size" onchange="$(this).parent().parent().parent().submit();">
-				<option  value='9'>9</option>
-				<option  value='12'>12</option>
-                <option  value='24'>24</option>
-                <option  value='48'>48</option>
-			    <option  value='96'>96</option>
-				<option  value='Все'>1000</option>   
-        </select>
-        на странице </div>
-    </div>
-    <div class="sorter">
-      <p class="view-mode">
-        <label>Вид:</label>
-        <a href="javascript:;" title="Переключить в режим отображения 'Сетка'" class="grid selected" data-mode="grid">Сетка</a><a href="javascript:;" title="Переключить в режим отображения 'Список'" class="list" data-mode="list">Список</a> </p>
-      <div class="sort-by">
-        <label>Сортировать:</label>
-        <select name="order" onchange="$(this).parent().parent().parent().submit();">
-            
-			<option  value=''></option>
-			<option  value='price'>По возрастанию цены</option>
-			<option  value='descending_price'>По убыванию цены</option>
-			<option  value='title'>Названию</option>  
-        </select>
-      </div>
-    </div>
-  </form>
 </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div> </div>
-</div>
-  
-  </div>
+ </div>
               
               
               <div class="col-left sidebar"> 
@@ -661,23 +235,6 @@
  
 
 			  
-                
-         
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                 
-                
-                
                 <div class="block block-cart">
                   <div class="sidebar-block">
                     <div class="top_bg">
@@ -814,7 +371,7 @@
         
         <li class="first "><a href="/page/feedback"  title="Обратная связь">Обратная связь</a></li>
         
-        <li class=" "><a href="/"  title="Главная страница">Главная страница</a></li>
+        <li class=" "><a href="/" title="Главная страница">Главная страница</a></li>
         
         <li class=" "><a href="/client_account/login"  title="Регистрация/Вход">Регистрация/Вход</a></li>
         
@@ -829,7 +386,7 @@
   </div>
 </div>
 </div>
-<script src="/served_assets/js/insales_panel-6f4088ffc4a68cf8a0fd0ad3e6c60323.js" type="text/javascript"></script><link href="/served_assets/css/insales_panel-22268b31467501fb1fa1343f09aa0222.css" media="screen" rel="stylesheet" type="text/css" /><link href="/served_assets/css/demoshop_panel-6db123698092fa9025fc8ed61c835334.css" media="screen" rel="stylesheet" type="text/css" /><div class="is-site" id="insales-panel"><div class="msgs-row"><div class="msgs-container" id="runtime-msgs"></div></div><div class="is-header"><svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="133px" height="43px" viewBox="0 0 136.516 48.154" enable-background="new 0 0 136.516 48.154" xml:space="preserve">
+<script src="/served_assets/shop/insales_panel-6f4088ffc4a68cf8a0fd0ad3e6c60323.js" type="text/javascript"></script><link href="/served_assets/shop/insales_panel-22268b31467501fb1fa1343f09aa0222.css" media="screen" rel="stylesheet" type="text/css" /><link href="/served_assets/shop/demoshop_panel-6db123698092fa9025fc8ed61c835334.css" media="screen" rel="stylesheet" type="text/css" /><div class="is-site" id="insales-panel"><div class="msgs-row"><div class="msgs-container" id="runtime-msgs"></div></div><div class="is-header"><svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="133px" height="43px" viewBox="0 0 136.516 48.154" enable-background="new 0 0 136.516 48.154" xml:space="preserve">
   <path fill="#ffffff" d="M35.102,25.505c-1.248-4.098-0.935-8.557,1.241-12.449c3.725-6.654,11.723-9.526,19.243-7.473l2.183,3.468
                           l-3.494,2.902c-7.52-1.438-14.602,0.842-17.693,6.368C35.352,20.515,34.892,22.979,35.102,25.505L35.102,25.505z"></path>
   <g>

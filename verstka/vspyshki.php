@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"fd0d8ed08d","applicationID":"40346406","transactionName":"c14IQRMOXV4EQR1DUF9BFRoDDV5VEhxbXlxVSVxYCBJC","queueTime":1,"applicationTime":266,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"fd0d8ed08d","applicationID":"40346406","transactionName":"c14IQRMOXV4EQR1DUF9BFRoRE15WFFBGQxdZXwJQGVtcWxJA","queueTime":52,"applicationTime":378,"agent":""}</script>
 <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
 <meta data-config="{&quot;money_with_currency_format&quot;:{&quot;delimiter&quot;:&quot;&quot;,&quot;separator&quot;:&quot;.&quot;,&quot;format&quot;:&quot;%n&amp;nbsp;%u&quot;,&quot;unit&quot;:&quot;\u0440\u0443\u0431&quot;,&quot;show_price_without_cents&quot;:0},&quot;currency_code&quot;:&quot;RUR&quot;,&quot;new_ya_metrika&quot;:null,&quot;ecommerce_data_container&quot;:&quot;dataLayer&quot;,&quot;common_js_version&quot;:null,&quot;account_id&quot;:79355,&quot;hide_items_out_of_stock&quot;:false,&quot;enable_comparison&quot;:true,&quot;locale&quot;:&quot;ru&quot;,&quot;client_group&quot;:null}" name="shop-config" /><head><meta name='js-evnvironment' content='production' /><meta name='default-locale' content='ru' /><meta name='insales-redefined-api-methods' content="[]" /><script src="/served_assets/js/shop_bundle-ce306071be6801f7eae474fcd5d36b88.js" type="text/javascript"></script>
         <!--InsalesCounter -->
@@ -18,20 +18,20 @@
         </script>
         <!-- /InsalesCounter -->
 
-<title>Новости</title>
+<title>Вспышки</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Новости" />
-<meta name="keywords" content="Новости" />
+<meta name="description" content="Вспышки" />
+<meta name="keywords" content="Вспышки" />
 <meta name="robots" content="index,follow" />
-<link rel="stylesheet" type="text/css" href="/js/theme.css" media="all">
+<link rel="stylesheet" type="text/css" href="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/theme.css" media="all">
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 <script type="text/javascript" src="/served_assets/js/empty.js"></script>
-<script type="text/javascript" src="/js/jq.slider.js"></script>
-<script type="text/javascript" src="/js/jq.cart.js"></script>
-<script type="text/javascript" src="/js/shadowbox.js"></script>
-<script type="text/javascript" src="/js/jquery.MetaData.js"></script>
-<script type="text/javascript" src="/js/rating.js"></script>
-<script type="text/javascript" src="/js/jq.theme.js"></script>
+<script type="text/javascript" src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/jq.slider.js"></script>
+<script type="text/javascript" src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/jq.cart.js"></script>
+<script type="text/javascript" src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/shadowbox.js"></script>
+<script type="text/javascript" src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/jquery.MetaData.js"></script>
+<script type="text/javascript" src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/rating.js"></script>  
+<script type="text/javascript" src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/jq.theme.js"></script>
 <script type="text/javascript">$.fn.rating.options.cancel = 'Сбросить';</script>
 <script type="text/javascript">var cv_currency_format = "{\"delimiter\":\"\",\"separator\":\".\",\"format\":\"%n&nbsp;%u\",\"unit\":\"\\u0440\\u0443\\u0431\",\"show_price_without_cents\":0}";</script>
 <script type="text/javascript">
@@ -73,7 +73,7 @@
 </script>
 
 <!--[if lt IE 8]>
-<link rel="stylesheet" type="text/css" href="/js/styles-ie.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/styles-ie.css" media="all" />
 <![endif]-->
 </head>
 <body class=" catalog-category-view">
@@ -87,7 +87,7 @@
 </noscript>
 <div class="header-container">
   <div class="page">
-    <div class="header"> <a href="/" title="Название магазина" class="logo clearfix"><img src="/js/loaded_logo.png" alt="Название магазина" /> </a>
+    <div class="header"> <a href="/" title="Название магазина" class="logo clearfix"><img src="https://assets3.insales.ru/assets/1/49/573489/v_1455886663/build/loaded_logo.png" alt="Название магазина" /> </a>
       <div class="quick-access">
         <div class="clear"></div>
         <div class="welcome-msg"><span><span>(495) 123-45-67</span></span></div>
@@ -95,13 +95,13 @@
         
         <ul class="links">
           
-          <li class="first " ><a href="/"  title="Главная">Главная<span></span></a></li>
+          <li class="first " ><a href="/" title="Главная">Главная<span></span></a></li>
           
           <li class=" " ><a href="/page/доставка"  title="Условия доставки">Условия доставки<span></span></a></li>
           
           <li class=" " ><a href="/client_account/login"  title="Личный кабинет">Личный кабинет<span></span></a></li>
           
-          <li class=" last" ><a href="/blog" class="active" title="Новости">Новости<span></span></a></li>
+          <li class=" last" ><a href="/blog"  title="Новости">Новости<span></span></a></li>
           
         </ul>
         
@@ -134,12 +134,12 @@
         
         <li class="   level-top"> <a href="/collection/smartphons" class="  level-top"><span>Смартфоны</span></a>  </li>
         
-        <li class="   level-top"> <a href="/collection/foto-i-video" class="  level-top"><span>Фото и видео</span></a> 
+        <li class="active   level-top"> <a href="/collection/foto-i-video" class=" active level-top"><span>Фото и видео</span></a> 
           <ul>
             
             <li class=" first "> <a href="/collection/obektivy"><span>Объективы </span></a> </li>
             
-            <li class="  last"> <a href="/collection/vspyshki"><span>Вспышки </span></a> </li>
+            <li class="active  last"> <a href="/collection/vspyshki"><span>Вспышки </span></a> </li>
             
           </ul>
            </li>
@@ -158,11 +158,23 @@
 <div class="breadcrumbs">
 <ul>
   <li><a href="/" rel="nofollow">Главная</a> <span>&nbsp;</span> </li>
-  
-   <li><strong>Блог</strong></li>
     
   
   
+    
+       
+    
+     
+      
+       <li><a href="/collection/foto-i-video" rel="nofollow">Фото и видео</a> <span>&nbsp;</span></li> 
+      
+       
+    
+     
+      
+       <li><strong>Вспышки</strong></li>
+      
+       
     
   
   
@@ -180,9 +192,7 @@
           </div>
           <div class="content-box">
             <div class="full-width">
-              <div class="col-main"> 
- 
-<div class="page-title category-title">
+              <div class="col-main"> <div class="page-title category-title">
   <div class="bot-bg">
     <div class="left-bg">
       <div class="right-bg">
@@ -190,7 +200,7 @@
           <div class="right-top">
             <div class="left-bot">
               <div class="right-bot">
-                <h1>Первая новость магазина</h1>
+                <h1>Вспышки</h1>
               </div>
             </div>
           </div>
@@ -199,29 +209,456 @@
     </div>
   </div>
 </div>
-<div class="main-box">
-  <div class="bot-bg">
-    <div class="left-bg">
-      <div class="right-bg">
-        <div class="left-top">
-          <div class="right-top">
-            <div class="left-bot">
-              <div class="right-bot">
-                <div class="editor-content editor"> <p>Поздравляем!</p>
-<p>Это первая новость в интернет-магазине.</p> </div>
-                <br>
-                <p><a href="/blog/Pervaya-novost-magazina">читать далее &raquo;</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<br>
 
+ 	
+<div class="category-products"> 
+<div class="toolbar-block">
+                      <div class="bot-bg">
+                        <div class="left-bg">
+                          <div class="right-bg">
+                            <div class="left-top">
+                              <div class="right-top">
+                                <div class="left-bot">
+                                  <div class="right-bot">
+<div class="toolbar">
+  <form method="get">
+    <div class="pager">
+      <p class="amount"><strong>3</strong> товар(ов) </p>
+      
+      <div class="limiter">
+        <label>по</label>
+        <select name="page_size" id="page_size" onchange="$(this).parent().parent().parent().submit();">
+				<option  value='9'>9</option>
+				<option  value='12'>12</option>
+                <option  value='24'>24</option>
+                <option  value='48'>48</option>
+			    <option  value='96'>96</option>
+				<option  value='Все'>1000</option>   
+        </select>
+        на странице </div>
+    </div>
+    <div class="sorter">
+      <p class="view-mode">
+        <label>Вид:</label>
+        <a href="javascript:;" title="Переключить в режим отображения 'Сетка'" class="grid selected" data-mode="grid">Сетка</a><a href="javascript:;" title="Переключить в режим отображения 'Список'" class="list" data-mode="list">Список</a> </p>
+      <div class="sort-by">
+        <label>Сортировать:</label>
+        <select name="order" onchange="$(this).parent().parent().parent().submit();">
+            
+			<option  value=''></option>
+			<option  value='price'>По возрастанию цены</option>
+			<option  value='descending_price'>По убыванию цены</option>
+			<option  value='title'>Названию</option>  
+        </select>
+      </div>
+    </div>
+  </form>
+</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  <ul class="products-grid first last">
+            
+     
+                    <li class="item first">
+                      <div class="main-box">
+                        <div class="bot-bg">
+                          <div class="left-bg">
+                            <div class="right-bg">
+                              <div class="left-top">
+                                <div class="right-top">
+                                  <div class="left-bot">
+                                    <div class="right-bot">  <a href="/product/metz-50-af-1-dlya-nikon" title="METZ 50 AF-1 для Nikon" class="product-image"><img src="https://static12.insales.ru/images/products/1/2579/13019667/compact_b27e6b213f6b55a5e1b24fe25416d9e0.jpg" alt="METZ 50 AF-1 для Nikon" /></a>
+                                      <div class="grid-block">
+                                        <div class="bot-bg">
+                                          <div class="left-bg">
+                                            <div class="right-bg">
+                                              <div class="left-top">
+                                                <div class="right-top">
+                                                  <div class="left-bot">
+                                                    <div class="right-bottom">
+                                                      <div class="ie-fix">
+                                                        <div class="product-box">
+                                                          <h2 class="product-name"><a href="/product/metz-50-af-1-dlya-nikon" title="METZ 50 AF-1 для Nikon">METZ 50 AF-1 для Nikon</a></h2>
+														          <div class="ratings">  
+           </div>
+		  
+                                                       
+													   
+		<div class="price-box clearfix"> <span class="regular-price"> <span class="price">10000&nbsp;руб</span> </span> </div>
+        <div class="actions">
+		
+          <form action="/cart_items" method="post">
+            <input type="hidden" name="variant_id" value="20402993" />
+            <button type="button" title="В Корзину" class="button btn-cart addtocart"> <span> <span>В Корзину</span> </span> </button>
+          </form>
+          
+             <div class="clear"></div>
+          
+          
+           </div>
+
+                                                          <div class="clear"></div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+            
+     
+                    <li class="item ">
+                      <div class="main-box">
+                        <div class="bot-bg">
+                          <div class="left-bg">
+                            <div class="right-bg">
+                              <div class="left-top">
+                                <div class="right-top">
+                                  <div class="left-bot">
+                                    <div class="right-bot">  <a href="/product/panasonic-dmw-fl360e-ttl" title="Panasonic DMW-FL360E TTL" class="product-image"><img src="https://static12.insales.ru/images/products/1/2668/13019756/compact_Panasonic_DMW-FL360E_88843_big.jpg" alt="Panasonic DMW-FL360E TTL" /></a>
+                                      <div class="grid-block">
+                                        <div class="bot-bg">
+                                          <div class="left-bg">
+                                            <div class="right-bg">
+                                              <div class="left-top">
+                                                <div class="right-top">
+                                                  <div class="left-bot">
+                                                    <div class="right-bottom">
+                                                      <div class="ie-fix">
+                                                        <div class="product-box">
+                                                          <h2 class="product-name"><a href="/product/panasonic-dmw-fl360e-ttl" title="Panasonic DMW-FL360E TTL">Panasonic DMW-FL360E TTL</a></h2>
+														          <div class="ratings">  
+           </div>
+		  
+                                                       
+													   
+		<div class="price-box clearfix"> <span class="regular-price"> <span class="price">13619&nbsp;руб</span> </span> </div>
+        <div class="actions">
+		
+          <form action="/cart_items" method="post">
+            <input type="hidden" name="variant_id" value="20403183" />
+            <button type="button" title="В Корзину" class="button btn-cart addtocart"> <span> <span>В Корзину</span> </span> </button>
+          </form>
+          
+             <div class="clear"></div>
+          
+          
+           </div>
+
+                                                          <div class="clear"></div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+            
+     
+                    <li class="item last">
+                      <div class="main-box">
+                        <div class="bot-bg">
+                          <div class="left-bg">
+                            <div class="right-bg">
+                              <div class="left-top">
+                                <div class="right-top">
+                                  <div class="left-bot">
+                                    <div class="right-bot">  <a href="/product/fotovspyshka-sigma-ef-610-dg-st-nikon" title="Фотовспышка Sigma EF-610 DG ST Nikon" class="product-image"><img src="https://static12.insales.ru/images/products/1/2447/13019535/compact_5821487-600x600.jpg" alt="Фотовспышка Sigma EF-610 DG ST Nikon" /></a>
+                                      <div class="grid-block">
+                                        <div class="bot-bg">
+                                          <div class="left-bg">
+                                            <div class="right-bg">
+                                              <div class="left-top">
+                                                <div class="right-top">
+                                                  <div class="left-bot">
+                                                    <div class="right-bottom">
+                                                      <div class="ie-fix">
+                                                        <div class="product-box">
+                                                          <h2 class="product-name"><a href="/product/fotovspyshka-sigma-ef-610-dg-st-nikon" title="Фотовспышка Sigma EF-610 DG ST Nikon">Фотовспышка Sigma EF-610 DG ST Nikon</a></h2>
+														          <div class="ratings">  
+           </div>
+		  
+                                                       
+													   
+		<div class="price-box clearfix"> <span class="regular-price"> <span class="price">6695&nbsp;руб</span> </span> </div>
+        <div class="actions">
+		
+          <form action="/cart_items" method="post">
+            <input type="hidden" name="variant_id" value="20402740" />
+            <button type="button" title="В Корзину" class="button btn-cart addtocart"> <span> <span>В Корзину</span> </span> </button>
+          </form>
+          
+             <div class="clear"></div>
+          
+          
+           </div>
+
+                                                          <div class="clear"></div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
     
+  </ul>
+  <ul class="products-list first last">
+            
+     
+<li class="item odd">
+  <div class="main-box">
+    <div class="bot-bg">
+      <div class="left-bg">
+        <div class="right-bg">
+          <div class="left-top">
+            <div class="right-top">
+              <div class="left-bot">
+                <div class="right-bot">
+                 <a href="/product/metz-50-af-1-dlya-nikon" title="METZ 50 AF-1 для Nikon" class="product-image"> <img src="https://static12.insales.ru/images/products/1/2579/13019667/compact_b27e6b213f6b55a5e1b24fe25416d9e0.jpg"  alt="METZ 50 AF-1 для Nikon"> </a>
+                  <div class="product-shop">
+                    <div class="f-fix">
+                      <h2 class="product-name">
+                       <a href="/product/metz-50-af-1-dlya-nikon" title="METZ 50 AF-1 для Nikon">METZ 50 AF-1 для Nikon</a>
+                      </h2>
+					          <div class="ratings"> 
+          <p class="rating-links"> 
+            </p>
+        </div>
+             <div class="price-box"> <span class="regular-price"> <span class="price">10000&nbsp;руб</span>  </span> </div>
+                       
+                         
+        <form action="/cart_items" method="post">
+          <input type="hidden" name="variant_id" value="20402993" />
+          <button type="button" title="В Корзину" class="button btn-cart addtocart"> <span> <span>В Корзину</span> </span> </button>
+        </form>
+         
+                       
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="desc std">
+                   Мощная и функциональная фотовспышка Metz для фотокамер Olympus. Nikon, Panasonic и Leica. Высокая мощность вспышки Metz позволяет получить качественные фотоснимки в различных жанрах фотографии: портретная фотография, предметная съемка, репортажная фотография, съемка спорта и т.д.
+                    <a href="/product/metz-50-af-1-dlya-nikon" title="Подробнее" class="link-learn">Подробнее</a>
+                  </div>
+				  
+			 
+				     
+					  
+				  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+            
+     
+<li class="item odd">
+  <div class="main-box">
+    <div class="bot-bg">
+      <div class="left-bg">
+        <div class="right-bg">
+          <div class="left-top">
+            <div class="right-top">
+              <div class="left-bot">
+                <div class="right-bot">
+                 <a href="/product/panasonic-dmw-fl360e-ttl" title="Panasonic DMW-FL360E TTL" class="product-image"> <img src="https://static12.insales.ru/images/products/1/2668/13019756/compact_Panasonic_DMW-FL360E_88843_big.jpg"  alt="Panasonic DMW-FL360E TTL"> </a>
+                  <div class="product-shop">
+                    <div class="f-fix">
+                      <h2 class="product-name">
+                       <a href="/product/panasonic-dmw-fl360e-ttl" title="Panasonic DMW-FL360E TTL">Panasonic DMW-FL360E TTL</a>
+                      </h2>
+					          <div class="ratings"> 
+          <p class="rating-links"> 
+            </p>
+        </div>
+             <div class="price-box"> <span class="regular-price"> <span class="price">13619&nbsp;руб</span>  </span> </div>
+                       
+                         
+        <form action="/cart_items" method="post">
+          <input type="hidden" name="variant_id" value="20403183" />
+          <button type="button" title="В Корзину" class="button btn-cart addtocart"> <span> <span>В Корзину</span> </span> </button>
+        </form>
+         
+                       
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="desc std">
+                   Внешняя вспышка DMW-FL360 для фотокамер с возможностью синхронизации, ведущее число вспышки - 36, встроенный ЖК-дисплей.
+                    <a href="/product/panasonic-dmw-fl360e-ttl" title="Подробнее" class="link-learn">Подробнее</a>
+                  </div>
+				  
+			 
+				     
+					  
+				  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+            
+     
+<li class="item odd">
+  <div class="main-box">
+    <div class="bot-bg">
+      <div class="left-bg">
+        <div class="right-bg">
+          <div class="left-top">
+            <div class="right-top">
+              <div class="left-bot">
+                <div class="right-bot">
+                 <a href="/product/fotovspyshka-sigma-ef-610-dg-st-nikon" title="Фотовспышка Sigma EF-610 DG ST Nikon" class="product-image"> <img src="https://static12.insales.ru/images/products/1/2447/13019535/compact_5821487-600x600.jpg"  alt="Фотовспышка Sigma EF-610 DG ST Nikon"> </a>
+                  <div class="product-shop">
+                    <div class="f-fix">
+                      <h2 class="product-name">
+                       <a href="/product/fotovspyshka-sigma-ef-610-dg-st-nikon" title="Фотовспышка Sigma EF-610 DG ST Nikon">Фотовспышка Sigma EF-610 DG ST Nikon</a>
+                      </h2>
+					          <div class="ratings"> 
+          <p class="rating-links"> 
+            </p>
+        </div>
+             <div class="price-box"> <span class="regular-price"> <span class="price">6695&nbsp;руб</span>  </span> </div>
+                       
+                         
+        <form action="/cart_items" method="post">
+          <input type="hidden" name="variant_id" value="20402740" />
+          <button type="button" title="В Корзину" class="button btn-cart addtocart"> <span> <span>В Корзину</span> </span> </button>
+        </form>
+         
+                       
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="desc std">
+                   <p>вспышка для камер Nikon<br />
+ведущее число: 61&nbsp;м (при ISO 100, 105мм)<br />
+поддержка режимов TTL<br />
+поворотная головка<br />
+автоматический выбор угла освещения<br />
+вес: 320&nbsp;г</p>
+                    <a href="/product/fotovspyshka-sigma-ef-610-dg-st-nikon" title="Подробнее" class="link-learn">Подробнее</a>
+                  </div>
+				  
+			 
+				     
+					  
+				  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+    
+  </ul>
+  <div class="toolbar-bottom"> 
+<div class="toolbar-block">
+                      <div class="bot-bg">
+                        <div class="left-bg">
+                          <div class="right-bg">
+                            <div class="left-top">
+                              <div class="right-top">
+                                <div class="left-bot">
+                                  <div class="right-bot">
+<div class="toolbar">
+  <form method="get">
+    <div class="pager">
+      <p class="amount"><strong>3</strong> товар(ов) </p>
+      
+      <div class="limiter">
+        <label>по</label>
+        <select name="page_size" id="page_size" onchange="$(this).parent().parent().parent().submit();">
+				<option  value='9'>9</option>
+				<option  value='12'>12</option>
+                <option  value='24'>24</option>
+                <option  value='48'>48</option>
+			    <option  value='96'>96</option>
+				<option  value='Все'>1000</option>   
+        </select>
+        на странице </div>
+    </div>
+    <div class="sorter">
+      <p class="view-mode">
+        <label>Вид:</label>
+        <a href="javascript:;" title="Переключить в режим отображения 'Сетка'" class="grid selected" data-mode="grid">Сетка</a><a href="javascript:;" title="Переключить в режим отображения 'Список'" class="list" data-mode="list">Список</a> </p>
+      <div class="sort-by">
+        <label>Сортировать:</label>
+        <select name="order" onchange="$(this).parent().parent().parent().submit();">
+            
+			<option  value=''></option>
+			<option  value='price'>По возрастанию цены</option>
+			<option  value='descending_price'>По убыванию цены</option>
+			<option  value='title'>Названию</option>  
+        </select>
+      </div>
+    </div>
+  </form>
+</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div> </div>
+</div>
+  
   </div>
               
               
@@ -235,6 +672,23 @@
  
 
 			  
+                
+         
+                    
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                 
+                
+                
                 <div class="block block-cart">
                   <div class="sidebar-block">
                     <div class="top_bg">
@@ -371,7 +825,7 @@
         
         <li class="first "><a href="/page/feedback"  title="Обратная связь">Обратная связь</a></li>
         
-        <li class=" "><a href="/"  title="Главная страница">Главная страница</a></li>
+        <li class=" "><a href="/" title="Главная страница">Главная страница</a></li>
         
         <li class=" "><a href="/client_account/login"  title="Регистрация/Вход">Регистрация/Вход</a></li>
         
