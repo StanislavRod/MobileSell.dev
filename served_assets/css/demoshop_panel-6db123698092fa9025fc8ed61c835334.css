@@ -1,0 +1,73 @@
+/* line 4, demoshop_panel.css.scss */
+#insales-panel .is-header {
+  border: none;
+  width: 340px;
+  background: url(/served_assets/shopberry2/logo_bg-7f3896150e478f9d6576e24a11e0af3b.png);
+}
+/* line 8, demoshop_panel.css.scss */
+#insales-panel .is-header svg {
+  height: 30px;
+  margin-top: 3px;
+  margin-left: 100px;
+}
+/* line 15, demoshop_panel.css.scss */
+#insales-panel .btn-group > .is-panel-button + .dropdown-toggle {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+/* line 19, demoshop_panel.css.scss */
+#insales-panel .btn-group > .is-panel-button:last-child:not(:first-child), #insales-panel .btn-group > .dropdown-toggle:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+/* line 23, demoshop_panel.css.scss */
+#insales-panel .btn-group .is-panel-button + .is-panel-button {
+  margin-left: -1px;
+}
+/* line 27, demoshop_panel.css.scss */
+#insales-panel .btn-group.is-theme-action {
+  margin-right: 350px;
+}
+/* line 29, demoshop_panel.css.scss */
+#insales-panel .btn-group.is-theme-action > a, #insales-panel .btn-group.is-theme-action > button {
+  margin-right: 0px;
+}
+/* line 34, demoshop_panel.css.scss */
+#insales-panel .is-theme-action > a {
+  margin-right: 350px;
+  text-align: center;
+}
+/* line 37, demoshop_panel.css.scss */
+#insales-panel .is-theme-action > a span:not(.caret) {
+  font-size: 15px;
+  vertical-align: top;
+  padding: 0px 40px;
+  line-height: normal;
+}
+/* line 43, demoshop_panel.css.scss */
+#insales-panel .is-theme-action > a small {
+  font-weight: normal;
+  display: block;
+  line-height: 0;
+  position: relative;
+  top: -7px;
+  font-size: 11px;
+}
+/* line 53, demoshop_panel.css.scss */
+#insales-panel .is-nav > li.is-preview-title {
+  max-width: 300px;
+}
+@media (max-width: 1040px) {
+  /* line 58, demoshop_panel.css.scss */
+  #insales-panel .is-header {
+    display: none;
+  }
+  /* line 61, demoshop_panel.css.scss */
+  #insales-panel .btn-group.is-theme-action {
+    margin-right: 10px;
+  }
+  /* line 64, demoshop_panel.css.scss */
+  #insales-panel .is-theme-action > a {
+    margin-right: 10px;
+  }
+}
