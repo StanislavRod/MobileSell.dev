@@ -15,10 +15,17 @@ class Output extends CI_Model
     }
 
 
-    public function view($view = false, $output = FALSE)
+    public function view($view = FALSE, $data = FALSE)
     {
-        $this->load->view($view, $output);
+        if ($view) {
+            $data['output'] = $this->load->view($view, $data, TRUE);
+        }
+        $this->load->view('main/index', $data);
     }
 
+    public function output($output = FALSE)
+    {
 
+        $this->load->view('main/index', $output);
+    }
 }

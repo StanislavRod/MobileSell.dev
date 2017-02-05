@@ -126,8 +126,8 @@
         }
     </style>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<!--    <script type="text/javascript" src="//bam.nr-data.net/1/fd0d8ed08d?a=40346406&amp;v=1016.8b58850&amp;to=c14IQRMOXV4EQR1DUF9BFRoTDl5GTlpcVF1ICwtcEhI%3D&amp;rst=2971&amp;ref=http://demo33063.myinsales.ru/&amp;qt=6&amp;ap=271&amp;be=665&amp;fe=2089&amp;dc=1074&amp;perf=%7B%22timing%22:%7B%22of%22:1486318703836,%22n%22:0,%22u%22:486,%22ue%22:486,%22f%22:0,%22dn%22:6,%22dne%22:6,%22c%22:6,%22ce%22:62,%22rq%22:63,%22rp%22:472,%22rpe%22:474,%22dl%22:497,%22di%22:1740,%22ds%22:1740,%22de%22:2026,%22dc%22:2753,%22l%22:2753,%22le%22:2806%7D,%22navigation%22:%7B%7D%7D&amp;jsonp=NREUM.setToken"></script>-->
-<!--    <script src="//js-agent.newrelic.com/nr-1016.min.js"></script>-->
+    <!--    <script type="text/javascript" src="//bam.nr-data.net/1/fd0d8ed08d?a=40346406&amp;v=1016.8b58850&amp;to=c14IQRMOXV4EQR1DUF9BFRoTDl5GTlpcVF1ICwtcEhI%3D&amp;rst=2971&amp;ref=http://demo33063.myinsales.ru/&amp;qt=6&amp;ap=271&amp;be=665&amp;fe=2089&amp;dc=1074&amp;perf=%7B%22timing%22:%7B%22of%22:1486318703836,%22n%22:0,%22u%22:486,%22ue%22:486,%22f%22:0,%22dn%22:6,%22dne%22:6,%22c%22:6,%22ce%22:62,%22rq%22:63,%22rp%22:472,%22rpe%22:474,%22dl%22:497,%22di%22:1740,%22ds%22:1740,%22de%22:2026,%22dc%22:2753,%22l%22:2753,%22le%22:2806%7D,%22navigation%22:%7B%7D%7D&amp;jsonp=NREUM.setToken"></script>-->
+    <!--    <script src="//js-agent.newrelic.com/nr-1016.min.js"></script>-->
     <script type="text/javascript" async="" src="/served_assets/js/insales_counter.js?5"></script>
     <script type="text/javascript">window.NREUM || (NREUM = {});
         NREUM.info = {
@@ -535,7 +535,7 @@
           href="/served_assets/css/styles-ie.css" media="all"/>
     <![endif]-->
 </head>
-<body class="cms-index-index cms-homecatalog-product-view">
+<body class="<?= @$main ?> cms-homecatalog-product-view">
 <noscript>
     &lt;div class="noscript"&gt;
     &lt;div class="noscript-inner"&gt;
@@ -596,24 +596,25 @@
         <div class="nav-container">
             <ul id="nav">
 
-                <li class=" first  level-top"><a href="/product/category/1" class="  level-top"><span>Планшеты</span></a>
+                <li class=" first  level-top"><a href="/product/"
+                                                 class="  level-top"><span>Планшеты</span></a>
                 </li>
 
-                <li class="   level-top"><a href="/product/category/2" class="  level-top"><span>Смартфоны</span></a>
+                <li class="   level-top"><a href="/product/" class="  level-top"><span>Смартфоны</span></a>
                 </li>
 
-                <li class="   level-top"><a href="/product/category/3"
+                <li class="   level-top"><a href="/product/"
                                             class="  level-top"><span>Фото и видео</span></a>
                     <ul>
 
-                        <li class=" first "><a href="/product/category/4"><span>Объективы </span></a></li>
+                        <li class=" first "><a href="/product/"><span>Объективы </span></a></li>
 
-                        <li class="  last"><a href="/product/category/5"><span>Вспышки </span></a></li>
+                        <li class="  last"><a href="/product/"><span>Вспышки </span></a></li>
 
                     </ul>
                 </li>
 
-                <li class="  last level-top"><a href="/product/category/6"
+                <li class="  last level-top"><a href="/product/"
                                                 class="  level-top"><span>Аксессуары</span></a></li>
 
             </ul>
@@ -621,162 +622,14 @@
     </div>
 </div>
 
-<div class="header-block">
-    <div class="page">
-        <div class="slider">
-            <div class="left-shadow">&nbsp;</div>
-            <div class="right-shadow">&nbsp;</div>
-            <a class="box-right" id="right_but" style="cursor:pointer;">&nbsp;</a> <a class="box-left"
-                                                                                      style="cursor:pointer;"
-                                                                                      id="left_but">&nbsp;</a>
-            <div class="box-top">
-                <ul id="slider_list" style="position: relative; left: -1067px; width: 3201px;">
 
-                    <li class="product-1"
-                        style="background:url(/served_assets/img/slider_img_1.jpg) no-repeat 500px center;">
-                        <div class="right">
-                            <p class="t"><a
-                                        href="http://demo33063.myinsales.ru/collection/slider/product/canon-ef-14mm-f28l-ii-usm">
-                                    Canon </a></p>
-                            <p class="st"><a
-                                        href="http://demo33063.myinsales.ru/collection/slider/product/canon-ef-14mm-f28l-ii-usm">
-                                    Canon EF 14mm f/2.8L II USM </a></p>
-                            <p>широкоугольный объектив с постоянным ФР</p>
-                            <a href="http://demo33063.myinsales.ru/collection/slider/product/canon-ef-14mm-f28l-ii-usm"
-                               class="slider-product-button"> <img
-                                        src="/served_assets/img/slider_button.png"
-                                        alt="Подробнее"> </a></div>
-                    </li>
-
-
-                    <li class="product-2"
-                        style="background:url(/served_assets/img/slider_img_2.jpg) no-repeat 500px center;">
-                        <div class="right">
-                            <p class="t"><a
-                                        href="http://demo33063.myinsales.ru/collection/slider/product/asus-nexus-7-16gb">
-                                    ASUS </a></p>
-                            <p class="st"><a
-                                        href="http://demo33063.myinsales.ru/collection/slider/product/asus-nexus-7-16gb">
-                                    ASUS Nexus 7 16Gb </a></p>
-                            <p>Планшетный ПК с процессором Tegra 3 T30L, встроенной памятью на 16 ГБ, ОС Android 4.1
-                                Jelly Bean, экраном 7 дюймов.</p>
-                            <a href="http://demo33063.myinsales.ru/collection/slider/product/asus-nexus-7-16gb"
-                               class="slider-product-button"> <img
-                                        src="/served_assets/img/slider_button.png"
-                                        alt="Подробнее"> </a></div>
-                    </li>
-
-
-                    <li class="product-3"
-                        style="background:url(/served_assets/img/slider_img_3.jpg) no-repeat 500px center;">
-                        <div class="right">
-                            <p class="t"><a
-                                        href="http://demo33063.myinsales.ru/collection/smartphons/product/sony-xperia-sp">
-                                    Sony </a></p>
-                            <p class="st"><a
-                                        href="http://demo33063.myinsales.ru/collection/smartphons/product/sony-xperia-sp">
-                                    Sony Xperia SP </a></p>
-                            <p>вес 155 г, ШxВxТ 67.10×130.60×9.98 мм, акк. 2370 мАч</p>
-                            <a href="http://demo33063.myinsales.ru/collection/smartphons/product/sony-xperia-sp"
-                               class="slider-product-button"> <img
-                                        src="/served_assets/img/slider_button.png"
-                                        alt="Подробнее"> </a></div>
-                    </li>
-
-                </ul>
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
-        </div>
-    </div>
-</div>
-
-<div class="slider-2-wrapper">
-    <div class="slider-2">
-        <div class="page">
-            <div class="slider">
-                <div class="indent"><a class="box-left-2" style="cursor:pointer;" id="left_but_2">&nbsp;</a>
-                    <div class="box-top">
-                        <ul id="slider_list_2" style="position: relative; left: -221px; width: 1989px;">
-
-                            <li>
-                                <div class="img-box"><a href="/product/apple-ipad-mini-16gb-wi-fi"> <img
-                                                src="//static12.insales.ru/images/products/1/6507/13007211/compact_i.jpg"
-                                                alt="Apple iPad mini 16Gb Wi-Fi"> </a></div>
-                                <a href="/product/apple-ipad-mini-16gb-wi-fi" class="name-box">Apple iPad mini 16Gb
-                                    Wi-Fi</a></li>
-
-                            <li>
-                                <div class="img-box"><a href="/product/asus-nexus-7-16gb"> <img
-                                                src="//static12.insales.ru/images/products/1/6504/13007208/compact_i_4_.jpg"
-                                                alt="ASUS Nexus 7 16Gb"> </a></div>
-                                <a href="/product/asus-nexus-7-16gb" class="name-box">ASUS Nexus 7 16Gb</a></li>
-
-                            <li>
-                                <div class="img-box"><a href="/product/canon-ef-14mm-f28l-ii-usm"> <img
-                                                src="//static12.insales.ru/images/products/1/2298/13019386/compact_15283.jpg"
-                                                alt="Canon EF 14mm f/2.8L II USM"> </a></div>
-                                <a href="/product/canon-ef-14mm-f28l-ii-usm" class="name-box">Canon EF 14mm f/2.8L II
-                                    USM</a></li>
-
-                            <li>
-                                <div class="img-box"><a href="/product/canon-ef-s-17-85mm-f4-56"> <img
-                                                src="//static12.insales.ru/images/products/1/1960/13019048/compact_522127.jpg"
-                                                alt="Canon EF-S 17-85mm F4-5.6"> </a></div>
-                                <a href="/product/canon-ef-s-17-85mm-f4-56" class="name-box">Canon EF-S 17-85mm
-                                    F4-5.6</a></li>
-
-                            <li>
-                                <div class="img-box"><a href="/product/metz-50-af-1-dlya-nikon"> <img
-                                                src="//static12.insales.ru/images/products/1/2579/13019667/compact_b27e6b213f6b55a5e1b24fe25416d9e0.jpg"
-                                                alt="METZ 50 AF-1 для Nikon"> </a></div>
-                                <a href="/product/metz-50-af-1-dlya-nikon" class="name-box">METZ 50 AF-1 для Nikon</a>
-                            </li>
-
-                            <li>
-                                <div class="img-box"><a href="/product/panasonic-dmw-fl360e-ttl"> <img
-                                                src="//static12.insales.ru/images/products/1/2668/13019756/compact_Panasonic_DMW-FL360E_88843_big.jpg"
-                                                alt="Panasonic DMW-FL360E TTL"> </a></div>
-                                <a href="/product/panasonic-dmw-fl360e-ttl" class="name-box">Panasonic DMW-FL360E
-                                    TTL</a></li>
-
-                            <li>
-                                <div class="img-box"><a href="/product/samsung-galaxy-tab-2-70-p3100-8gb"> <img
-                                                src="//static12.insales.ru/images/products/1/6502/13007206/compact_i_2_.jpg"
-                                                alt="Samsung Galaxy Tab 2 7.0 P3100 8Gb"> </a></div>
-                                <a href="/product/samsung-galaxy-tab-2-70-p3100-8gb" class="name-box">Samsung Galaxy Tab
-                                    2 7.0 P3...</a></li>
-
-                            <li>
-                                <div class="img-box"><a href="/product/obektiv-sony-18-200mm-f35-63"> <img
-                                                src="//static12.insales.ru/images/products/1/2120/13019208/compact_photo.jpg"
-                                                alt="Объектив SONY 18-200mm f/3.5-6.3"> </a></div>
-                                <a href="/product/obektiv-sony-18-200mm-f35-63" class="name-box">Объектив SONY 18-200mm
-                                    f/3....</a></li>
-
-                            <li>
-                                <div class="img-box"><a href="/product/fotovspyshka-sigma-ef-610-dg-st-nikon"> <img
-                                                src="//static12.insales.ru/images/products/1/2447/13019535/compact_5821487-600x600.jpg"
-                                                alt="Фотовспышка Sigma EF-610 DG ST Nikon"> </a></div>
-                                <a href="/product/fotovspyshka-sigma-ef-610-dg-st-nikon" class="name-box">Фотовспышка
-                                    Sigma EF-610 DG...</a></li>
-
-                        </ul>
-                        <div class="clear"></div>
-                    </div>
-                    <a class="box-right-2" id="right_but_2" style="cursor:pointer;">&nbsp;</a>
-                    <div class="clear"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+<?= @$slider ?>
 
 <div class="wrapper">
     <div class="page">
         <div class="main-container col2-left-layout">
             <div class="main">
+                <?= @$breadcrumbs ?>
                 <div class="main-block">
                     <div class="corners-top">
                         <div>
@@ -785,6 +638,7 @@
                     </div>
                     <div class="content-box">
                         <div class="full-width">
+
                             <div class="col-main">
                                 <div class="page-title category-title">
                                     <div class="bot-bg">
@@ -794,7 +648,7 @@
                                                     <div class="right-top">
                                                         <div class="left-bot">
                                                             <div class="right-bot">
-                                                                <h1>Товары на главной</h1>
+                                                                <h1><?= @$header ?></h1>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -803,507 +657,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="category-products">
-                                    <ul class="products-grid">
+                                <!--               main             -->
+                                <?= @$content ?>
+                                <!--end main-->
 
-
-                                        <li class="item first">
-                                            <div class="main-box">
-                                                <div class="bot-bg">
-                                                    <div class="left-bg">
-                                                        <div class="right-bg">
-                                                            <div class="left-top">
-                                                                <div class="right-top">
-                                                                    <div class="left-bot">
-                                                                        <div class="right-bot"><a
-                                                                                    href="/product/apple-ipad-mini-16gb-wi-fi"
-                                                                                    title="Apple iPad mini 16Gb Wi-Fi"
-                                                                                    class="product-image"><img
-                                                                                        src="//static12.insales.ru/images/products/1/6507/13007211/compact_i.jpg"
-                                                                                        alt="Apple iPad mini 16Gb Wi-Fi"></a>
-                                                                            <div class="grid-block">
-                                                                                <div class="bot-bg">
-                                                                                    <div class="left-bg">
-                                                                                        <div class="right-bg">
-                                                                                            <div class="left-top">
-                                                                                                <div class="right-top">
-                                                                                                    <div class="left-bot">
-                                                                                                        <div class="right-bottom">
-                                                                                                            <div class="ie-fix">
-                                                                                                                <div class="product-box">
-                                                                                                                    <h2 class="product-name">
-                                                                                                                        <a href="/product/apple-ipad-mini-16gb-wi-fi"
-                                                                                                                           title="Apple iPad mini 16Gb Wi-Fi">Apple
-                                                                                                                            iPad
-                                                                                                                            mini
-                                                                                                                            16Gb
-                                                                                                                            Wi-Fi</a>
-                                                                                                                    </h2>
-                                                                                                                    <div class="ratings">
-                                                                                                                    </div>
-
-
-                                                                                                                    <div class="price-box clearfix">
-                                                                                                                        <span class="regular-price"> <span
-                                                                                                                                    class="price">16100&nbsp;руб</span> </span>
-                                                                                                                    </div>
-                                                                                                                    <div class="actions">
-
-                                                                                                                        <button type="button"
-                                                                                                                                title="Подробнее"
-                                                                                                                                class="button btn-cart"
-                                                                                                                                onclick="location.href='/product/apple-ipad-mini-16gb-wi-fi'">
-                                                                                                                            <span> <span>Подробнее</span> </span>
-                                                                                                                        </button>
-
-                                                                                                                        <div class="clear"></div>
-
-
-                                                                                                                        <ul class="add-to-links">
-                                                                                                                            <li>
-                                                                                                                                <a href="#"
-                                                                                                                                   class="link-wishlist add_to_compare"
-                                                                                                                                   rel="13013353">Добавить
-                                                                                                                                    к
-                                                                                                                                    сравнению</a>
-                                                                                                                            </li>
-                                                                                                                        </ul>
-
-                                                                                                                    </div>
-
-                                                                                                                    <div class="clear"></div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-
-
-                                        <li class="item ">
-                                            <div class="main-box">
-                                                <div class="bot-bg">
-                                                    <div class="left-bg">
-                                                        <div class="right-bg">
-                                                            <div class="left-top">
-                                                                <div class="right-top">
-                                                                    <div class="left-bot">
-                                                                        <div class="right-bot"><a
-                                                                                    href="/product/canon-ef-14mm-f28l-ii-usm"
-                                                                                    title="Canon EF 14mm f/2.8L II USM"
-                                                                                    class="product-image"><img
-                                                                                        src="//static12.insales.ru/images/products/1/2298/13019386/compact_15283.jpg"
-                                                                                        alt="Canon EF 14mm f/2.8L II USM"></a>
-                                                                            <div class="grid-block">
-                                                                                <div class="bot-bg">
-                                                                                    <div class="left-bg">
-                                                                                        <div class="right-bg">
-                                                                                            <div class="left-top">
-                                                                                                <div class="right-top">
-                                                                                                    <div class="left-bot">
-                                                                                                        <div class="right-bottom">
-                                                                                                            <div class="ie-fix">
-                                                                                                                <div class="product-box">
-                                                                                                                    <h2 class="product-name">
-                                                                                                                        <a href="/product/canon-ef-14mm-f28l-ii-usm"
-                                                                                                                           title="Canon EF 14mm f/2.8L II USM">Canon
-                                                                                                                            EF
-                                                                                                                            14mm
-                                                                                                                            f/2.8L
-                                                                                                                            II
-                                                                                                                            USM</a>
-                                                                                                                    </h2>
-                                                                                                                    <div class="ratings">
-                                                                                                                    </div>
-
-
-                                                                                                                    <div class="price-box clearfix">
-                                                                                                                        <span class="regular-price"> <span
-                                                                                                                                    class="price">67700&nbsp;руб</span> <br> <del
-                                                                                                                                    class="old-price"> 70000&nbsp;руб</del></span>
-                                                                                                                    </div>
-                                                                                                                    <div class="actions">
-
-                                                                                                                        <form action="/cart_items"
-                                                                                                                              method="post">
-                                                                                                                            <input type="hidden"
-                                                                                                                                   name="variant_id"
-                                                                                                                                   value="20402454">
-                                                                                                                            <button type="button"
-                                                                                                                                    title="В Корзину"
-                                                                                                                                    class="button btn-cart addtocart">
-                                                                                                                                <span> <span>В Корзину</span> </span>
-                                                                                                                            </button>
-                                                                                                                        </form>
-
-                                                                                                                        <div class="clear"></div>
-
-
-                                                                                                                    </div>
-
-                                                                                                                    <div class="clear"></div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-
-
-                                        <li class="item last">
-                                            <div class="main-box">
-                                                <div class="bot-bg">
-                                                    <div class="left-bg">
-                                                        <div class="right-bg">
-                                                            <div class="left-top">
-                                                                <div class="right-top">
-                                                                    <div class="left-bot">
-                                                                        <div class="right-bot"><a
-                                                                                    href="/product/canon-ef-s-17-85mm-f4-56"
-                                                                                    title="Canon EF-S 17-85mm F4-5.6"
-                                                                                    class="product-image"><img
-                                                                                        src="//static12.insales.ru/images/products/1/1960/13019048/compact_522127.jpg"
-                                                                                        alt="Canon EF-S 17-85mm F4-5.6"></a>
-                                                                            <div class="grid-block">
-                                                                                <div class="bot-bg">
-                                                                                    <div class="left-bg">
-                                                                                        <div class="right-bg">
-                                                                                            <div class="left-top">
-                                                                                                <div class="right-top">
-                                                                                                    <div class="left-bot">
-                                                                                                        <div class="right-bottom">
-                                                                                                            <div class="ie-fix">
-                                                                                                                <div class="product-box">
-                                                                                                                    <h2 class="product-name">
-                                                                                                                        <a href="/product/canon-ef-s-17-85mm-f4-56"
-                                                                                                                           title="Canon EF-S 17-85mm F4-5.6">Canon
-                                                                                                                            EF-S
-                                                                                                                            17-85mm
-                                                                                                                            F4-5.6</a>
-                                                                                                                    </h2>
-                                                                                                                    <div class="ratings">
-                                                                                                                    </div>
-
-
-                                                                                                                    <div class="price-box clearfix">
-                                                                                                                        <span class="regular-price"> <span
-                                                                                                                                    class="price">12390&nbsp;руб</span> <br> <del
-                                                                                                                                    class="old-price"> 10000&nbsp;руб</del></span>
-                                                                                                                    </div>
-                                                                                                                    <div class="actions">
-
-                                                                                                                        <form action="/cart_items"
-                                                                                                                              method="post">
-                                                                                                                            <input type="hidden"
-                                                                                                                                   name="variant_id"
-                                                                                                                                   value="20402041">
-                                                                                                                            <button type="button"
-                                                                                                                                    title="В Корзину"
-                                                                                                                                    class="button btn-cart addtocart">
-                                                                                                                                <span> <span>В Корзину</span> </span>
-                                                                                                                            </button>
-                                                                                                                        </form>
-
-                                                                                                                        <div class="clear"></div>
-
-
-                                                                                                                    </div>
-
-                                                                                                                    <div class="clear"></div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-
-
-                                        <li class="item first">
-                                            <div class="main-box">
-                                                <div class="bot-bg">
-                                                    <div class="left-bg">
-                                                        <div class="right-bg">
-                                                            <div class="left-top">
-                                                                <div class="right-top">
-                                                                    <div class="left-bot">
-                                                                        <div class="right-bot"><a
-                                                                                    href="/product/motorola-motoluxe"
-                                                                                    title="Motorola Motoluxe"
-                                                                                    class="product-image"><img
-                                                                                        src="//static12.insales.ru/images/products/1/7940/13016836/compact_motorola-motoluxe-l.jpg"
-                                                                                        alt="Motorola Motoluxe"></a>
-                                                                            <div class="grid-block">
-                                                                                <div class="bot-bg">
-                                                                                    <div class="left-bg">
-                                                                                        <div class="right-bg">
-                                                                                            <div class="left-top">
-                                                                                                <div class="right-top">
-                                                                                                    <div class="left-bot">
-                                                                                                        <div class="right-bottom">
-                                                                                                            <div class="ie-fix">
-                                                                                                                <div class="product-box">
-                                                                                                                    <h2 class="product-name">
-                                                                                                                        <a href="/product/motorola-motoluxe"
-                                                                                                                           title="Motorola Motoluxe">Motorola
-                                                                                                                            Motoluxe</a>
-                                                                                                                    </h2>
-                                                                                                                    <div class="ratings">
-                                                                                                                    </div>
-
-
-                                                                                                                    <div class="price-box clearfix">
-                                                                                                                        <span class="regular-price"> <span
-                                                                                                                                    class="price">8000&nbsp;руб</span> <br> <del
-                                                                                                                                    class="old-price"> 7000&nbsp;руб</del></span>
-                                                                                                                    </div>
-                                                                                                                    <div class="actions">
-
-                                                                                                                        <form action="/cart_items"
-                                                                                                                              method="post">
-                                                                                                                            <input type="hidden"
-                                                                                                                                   name="variant_id"
-                                                                                                                                   value="20399901">
-                                                                                                                            <button type="button"
-                                                                                                                                    title="В Корзину"
-                                                                                                                                    class="button btn-cart addtocart">
-                                                                                                                                <span> <span>В Корзину</span> </span>
-                                                                                                                            </button>
-                                                                                                                        </form>
-
-                                                                                                                        <div class="clear"></div>
-
-
-                                                                                                                    </div>
-
-                                                                                                                    <div class="clear"></div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-
-
-                                        <li class="item ">
-                                            <div class="main-box">
-                                                <div class="bot-bg">
-                                                    <div class="left-bg">
-                                                        <div class="right-bg">
-                                                            <div class="left-top">
-                                                                <div class="right-top">
-                                                                    <div class="left-bot">
-                                                                        <div class="right-bot"><a
-                                                                                    href="/product/nokia-lumia-520"
-                                                                                    title="Nokia Lumia 520"
-                                                                                    class="product-image"><img
-                                                                                        src="//static12.insales.ru/images/products/1/7518/13016414/compact_nokia-lumia-520-l.jpg"
-                                                                                        alt="Nokia Lumia 520"></a>
-                                                                            <div class="grid-block">
-                                                                                <div class="bot-bg">
-                                                                                    <div class="left-bg">
-                                                                                        <div class="right-bg">
-                                                                                            <div class="left-top">
-                                                                                                <div class="right-top">
-                                                                                                    <div class="left-bot">
-                                                                                                        <div class="right-bottom">
-                                                                                                            <div class="ie-fix">
-                                                                                                                <div class="product-box">
-                                                                                                                    <h2 class="product-name">
-                                                                                                                        <a href="/product/nokia-lumia-520"
-                                                                                                                           title="Nokia Lumia 520">Nokia
-                                                                                                                            Lumia
-                                                                                                                            520</a>
-                                                                                                                    </h2>
-                                                                                                                    <div class="ratings">
-                                                                                                                    </div>
-
-
-                                                                                                                    <div class="price-box clearfix">
-                                                                                                                        <span class="regular-price"> <span
-                                                                                                                                    class="price">15000&nbsp;руб</span> </span>
-                                                                                                                    </div>
-                                                                                                                    <div class="actions">
-
-                                                                                                                        <form action="/cart_items"
-                                                                                                                              method="post">
-                                                                                                                            <input type="hidden"
-                                                                                                                                   name="variant_id"
-                                                                                                                                   value="20398771">
-                                                                                                                            <button type="button"
-                                                                                                                                    title="В Корзину"
-                                                                                                                                    class="button btn-cart addtocart">
-                                                                                                                                <span> <span>В Корзину</span> </span>
-                                                                                                                            </button>
-                                                                                                                        </form>
-
-                                                                                                                        <div class="clear"></div>
-
-
-                                                                                                                    </div>
-
-                                                                                                                    <div class="clear"></div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-
-
-                                        <li class="item last">
-                                            <div class="main-box">
-                                                <div class="bot-bg">
-                                                    <div class="left-bg">
-                                                        <div class="right-bg">
-                                                            <div class="left-top">
-                                                                <div class="right-top">
-                                                                    <div class="left-bot">
-                                                                        <div class="right-bot"><a
-                                                                                    href="/product/fotovspyshka-sigma-ef-610-dg-st-nikon"
-                                                                                    title="Фотовспышка Sigma EF-610 DG ST Nikon"
-                                                                                    class="product-image"><img
-                                                                                        src="//static12.insales.ru/images/products/1/2447/13019535/compact_5821487-600x600.jpg"
-                                                                                        alt="Фотовспышка Sigma EF-610 DG ST Nikon"></a>
-                                                                            <div class="grid-block">
-                                                                                <div class="bot-bg">
-                                                                                    <div class="left-bg">
-                                                                                        <div class="right-bg">
-                                                                                            <div class="left-top">
-                                                                                                <div class="right-top">
-                                                                                                    <div class="left-bot">
-                                                                                                        <div class="right-bottom">
-                                                                                                            <div class="ie-fix">
-                                                                                                                <div class="product-box">
-                                                                                                                    <h2 class="product-name">
-                                                                                                                        <a href="/product/fotovspyshka-sigma-ef-610-dg-st-nikon"
-                                                                                                                           title="Фотовспышка Sigma EF-610 DG ST Nikon">Фотовспышка
-                                                                                                                            Sigma
-                                                                                                                            EF-610
-                                                                                                                            DG
-                                                                                                                            ST
-                                                                                                                            Nikon</a>
-                                                                                                                    </h2>
-                                                                                                                    <div class="ratings">
-                                                                                                                    </div>
-
-
-                                                                                                                    <div class="price-box clearfix">
-                                                                                                                        <span class="regular-price"> <span
-                                                                                                                                    class="price">6695&nbsp;руб</span> </span>
-                                                                                                                    </div>
-                                                                                                                    <div class="actions">
-
-                                                                                                                        <form action="/cart_items"
-                                                                                                                              method="post">
-                                                                                                                            <input type="hidden"
-                                                                                                                                   name="variant_id"
-                                                                                                                                   value="20402740">
-                                                                                                                            <button type="button"
-                                                                                                                                    title="В Корзину"
-                                                                                                                                    class="button btn-cart addtocart">
-                                                                                                                                <span> <span>В Корзину</span> </span>
-                                                                                                                            </button>
-                                                                                                                        </form>
-
-                                                                                                                        <div class="clear"></div>
-
-
-                                                                                                                    </div>
-
-                                                                                                                    <div class="clear"></div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                    </ul>
-                                </div>
                             </div>
-
-
-                            <div class="col-left sidebar">
-
-
+                            <!--side bar-->
+                            <div class="col-<?= (isset($sidebar_direct) && !empty($sidebar_direct)) ? 'right' : 'left' ?> sidebar">
                                 <div class="block block-cart">
                                     <div class="sidebar-block">
                                         <div class="top_bg">
@@ -1323,7 +683,8 @@
                                                                             </p>
                                                                             <div class="basket_full">
                                                                                 <div class="summary">
-                                                                                    <p class="amount"> Всего в корзине
+                                                                                    <p class="amount"> Всего в
+                                                                                        корзине
                                                                                         <a href="/cart_items/"><strong
                                                                                                     class="items_count">1</strong>
                                                                                             шт.</a></p>
@@ -1351,17 +712,20 @@
                                                                                            class="product-image"><img
                                                                                                     src="//static12.insales.ru/images/products/1/2298/13019386/micro_15283.jpg"
                                                                                                     class="parse_img"></a>
-                                                                                        <div class="product-details"><a
+                                                                                        <div class="product-details">
+                                                                                            <a
                                                                                                     id="delete_20402454"
                                                                                                     href="/cart_items/20402454"
                                                                                                     title="Удалить с корзины"
                                                                                                     class="parse_remove_action btn-remove"
                                                                                                     data-id="dataid20402454">
                                                                                                 &nbsp;</a>
-                                                                                            <p class="product-name"><a
+                                                                                            <p class="product-name">
+                                                                                                <a
                                                                                                         href="/product/canon-ef-14mm-f28l-ii-usm"
                                                                                                         class="parse_product_url">Canon
-                                                                                                    EF 14mm f/2.8L II
+                                                                                                    EF 14mm f/2.8L
+                                                                                                    II
                                                                                                     USM</a></p>
                                                                                             <strong id="item_quantity_20402454"
                                                                                                     class="parse_item_quantity">1</strong>
@@ -1390,7 +754,8 @@
                                                                             title="Удалить с корзины"
                                                                             class="parse_remove_action btn-remove"
                                                                             data-id="dataid">&nbsp;</a>
-                                                <p class="product-name"><a href="" class="parse_product_url"></a></p>
+                                                <p class="product-name"><a href="" class="parse_product_url"></a>
+                                                </p>
                                                 <strong id="item_quantity_" class="parse_item_quantity"></strong> x
                                                 <span class="price parse_sale_price"></span></div>
                                         </li>
@@ -1415,9 +780,7 @@
                                                                                             src="//static12.insales.ru/files/1/501/508405/original/action.png"
                                                                                             height="300"
                                                                                             width="175"></a></p>
-                                                                            <p><em>Сменить банер или заменить его на
-                                                                                    текст можно в разделе Сайт-&gt;Блоки.</em>
-                                                                            </p></div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1443,7 +806,8 @@
                                                                         <div class="block-title"><strong><span>Сравнить товары</span></strong>
                                                                         </div>
                                                                         <div class="block-content">
-                                                                            <div class="noforcompare"><p>нет товаров для
+                                                                            <div class="noforcompare"><p>нет товаров
+                                                                                    для
                                                                                     сравнения</p></div>
                                                                         </div>
                                                                     </div>
@@ -1456,10 +820,8 @@
                                         </div>
                                     </div>
                                 </div>
-
-
                             </div>
-
+                            <!--end sidebar-->
 
                             <div class="clear"></div>
                         </div>
@@ -1476,15 +838,15 @@
             <div class="footer">
                 <ul class="links">
 
-                    <li class="first "><a href="/page/feedback" title="Обратная связь">Обратная связь</a></li>
+                    <li class="first "><a href="/feedback" title="Обратная связь">Обратная связь</a></li>
 
                     <li class=" "><a href="/" class="active" title="Главная страница">Главная страница</a></li>
 
-                    <li class=" "><a href="/client_account/login" title="Регистрация/Вход">Регистрация/Вход</a></li>
+                    <li class=" "><a href="/login" title="Регистрация/Вход">Регистрация/Вход</a></li>
 
-                    <li class=" "><a href="/page/deliver" title="Доставка">Доставка</a></li>
+                    <li class=" "><a href="/delivery" title="Доставка">Доставка</a></li>
 
-                    <li class=" last"><a href="/blogs/blog" title="Новости">Новости</a></li>
+                    <li class=" last"><a href="/news" title="Новости">Новости</a></li>
 
                 </ul>
                 <br class="clear">

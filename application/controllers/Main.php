@@ -21,6 +21,12 @@ class Main extends CI_Controller
      */
     public function index()
     {
-       $this->Output->view('main/index');
+        $data['main'] = 'cms-index-index';//отступ для карусели включает padding 80px
+        $data['slider'] = $this->load->view('slider_list', '', true);
+        $data['content'] = $this->load->view('product', '', true);
+        $data['header'] = 'Товары на главной';
+        $this->load->view('main/index', $data);
     }
+
+
 }
