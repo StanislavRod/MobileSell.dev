@@ -21,21 +21,6 @@ class Main extends CI_Controller
      */
     public function index()
     {
-        $menu['name'] = $this->Menu_model->Menu()->result_array();
-
-        foreach ($menu['name'] as $key => $n) {
-
-            if ($this->uri->segment(1) == $n['name']) {
-                $menu['name'][$key]['active'] = 'class="active"';
-
-            } else {
-                $menu['name'][$key]['active'] = '';
-
-            }
-        }
-        $this->load->view('header', $menu);
-        $this->load->view('main/index');
-//        $this->load->view('sidebar');
-        $this->load->view('footer',$menu);
+       $this->Output->view('main/index');
     }
 }
