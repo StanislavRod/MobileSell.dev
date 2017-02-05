@@ -16,8 +16,10 @@ class News extends CI_Controller
 
     public function index()
     {
+        $data['sidebar'] = true;
         $data['breadcrumbs'] = $this->load->view('breadcrumbs', '', true);
         $data['content'] = $this->load->view('news', '', true);
+        $data['header'] = 'Первая новость';
         $this->load->view('main/index', $data);
     }
 }

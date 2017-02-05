@@ -18,6 +18,7 @@ class Feedback extends CI_Controller
 
     public function index()
     {
+        $data['sidebar'] = true;
         $data['content'] = $this->load->view('feedback', '', true);
         $data['header'] = 'Обратная связь';
         $this->load->view('main/index', $data);

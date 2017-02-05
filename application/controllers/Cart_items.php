@@ -12,6 +12,9 @@ class Cart_items extends CI_Controller
 
     public function index()
     {
-
+        $data['content'] = $this->load->view('cart_items', '', true);
+        $data['header'] = 'Корзина';
+        $data['sidebar'] = false;
+        $this->load->view('main/index', $data);
     }
 }

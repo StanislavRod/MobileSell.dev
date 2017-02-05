@@ -13,10 +13,12 @@ class Product extends CI_Controller
     public function __construct()
     {
         parent::__construct();
+
     }
 
     public function index()
     {
+        $data['sidebar'] = true;
         $data['content'] = $this->load->view('product', '', true);
         $data['header'] = 'ПЛАНШЕТЫ';
         $this->load->view('main/index', $data);
@@ -24,7 +26,8 @@ class Product extends CI_Controller
 
     public function detail($id = false)
     {
-//        $data['sidebar_direct'] = true;
+        $data['sidebar_direct'] = false;
+        $data['sidebar'] = true;
         $data['content'] = $this->load->view('detail', '', true);
         $data['header'] = 'Product name';
         $this->load->view('main/index', $data);

@@ -16,6 +16,7 @@ class Delivery extends CI_Controller
 
     public function index()
     {
+        $data['sidebar'] = true;
         $data['content'] = $this->load->view('delivery', '', true);
         $data['header'] = 'Доставка';
         $data['breadcrumbs'] = $this->load->view('breadcrumbs', '', true);
