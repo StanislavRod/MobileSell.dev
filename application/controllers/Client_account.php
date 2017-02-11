@@ -6,6 +6,10 @@
  * Date: 11.02.2017
  * Time: 12:53
  */
+
+/**
+ * Class Client_account
+ */
 class Client_account extends CI_Controller
 {
     public function __construct()
@@ -18,9 +22,18 @@ class Client_account extends CI_Controller
         $this->load->view('login');
     }
 
-    public function contacts($new){
+    /**
+     * @param $new
+     */
+    public function contacts($new)
+    {
 
         $this->load->view('register');
     }
 
+    public function session()
+    {
+        $this->input->post(null, true);
+
+    }
 }
