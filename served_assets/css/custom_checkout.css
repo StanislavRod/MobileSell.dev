@@ -16,7 +16,7 @@
 
 /* цвет текста */
 body {
-    background: url(header_w.jpg) left top repeat-x #E5E4E4;
+    background: url(/served_assets/img/header_w.jpg) left top repeat-x #E5E4E4;
     font: 12px/16px Arial, Helvetica, sans-serif;
     color: #a4a4a5;
 }

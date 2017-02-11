@@ -1,726 +1,685 @@
 @charset "UTF-8";
 /* line 1, checkout.css.scss */
 html, body, div, p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* line 6, checkout.css.scss */
 body {
-    font: 12px Arial, sans-serif;
-    color: #353326;
+  font: 12px Arial, sans-serif;
+  color: #353326;
 }
 
 /* line 11, checkout.css.scss */
 p {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 /* line 15, checkout.css.scss */
 a {
-    color: #0077d1;
+  color: #0077d1;
 }
-
 /* line 17, checkout.css.scss */
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* line 22, checkout.css.scss */
 .fc {
-    overflow: hidden;
-    zoom: 1;
+  overflow: hidden;
+  zoom: 1;
 }
 
 /* line 27, checkout.css.scss */
 .fl {
-    float: left;
+  float: left;
 }
 
 /* line 31, checkout.css.scss */
 .fr {
-    float: right;
+  float: right;
 }
 
 /* line 35, checkout.css.scss */
 .b {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* line 39, checkout.css.scss */
 .header-bg {
-    background: #323232;
-    height: 230px;
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-    top: 0;
-    left: 0;
+  background: #323232;
+  height: 230px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
 }
 
 /* line 49, checkout.css.scss */
 .wrapper {
-    width: 920px;
-    padding: 0 40px;
-    margin: 0 auto;
+  width: 920px;
+  padding: 0 40px;
+  margin: 0 auto;
 }
 
 /* line 55, checkout.css.scss */
 .header-blur {
-    height: 62px;
-    background: #fff;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
-    filter: alpha(opacity=10);
-    -moz-opacity: 0.1;
-    opacity: 0.1;
+  height: 62px;
+  background: #fff;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+  filter: alpha(opacity=10);
+  -moz-opacity: 0.1;
+  opacity: 0.1;
 }
 
 /* line 64, checkout.css.scss */
 .header {
-    padding: 0 20px;
-    height: 70px;
-    line-height: 70px;
-    overflow: hidden;
-    font-size: 24px;
-    color: #fff;
+  padding: 0 20px;
+  height: 70px;
+  line-height: 70px;
+  overflow: hidden;
+  font-size: 24px;
+  color: #fff;
 }
-
 /* line 71, checkout.css.scss */
 .header a {
-    color: #FFFFFF;
-    text-decoration: none;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 /* line 77, checkout.css.scss */
 .body {
-    background: #fff;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    padding: 20px;
+  background: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 /* line 85, checkout.css.scss */
 #logo {
-    max-height: 65px;
-    vertical-align: middle;
-    border: 0;
-    margin-right: 10px;
+  max-height: 65px;
+  vertical-align: middle;
+  border: 0;
+  margin-right: 10px;
 }
 
 /* line 92, checkout.css.scss */
 .button {
-    background-image: none;
-    background-color: #33BC33;
-    background-repeat: repeat-x;
-    display: inline-block;
-    padding: 7px 9px 6px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 1;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
-    border: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-    position: relative;
-    cursor: pointer;
-    font: 12px Tahoma, sans-serif !important;
-    margin: 0 3px;
+  background-image: none;
+  background-color: #33BC33;
+  background-repeat: repeat-x;
+  display: inline-block;
+  padding: 7px 9px 6px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  cursor: pointer;
+  font: 12px Tahoma, sans-serif !important;
+  margin: 0 3px;
 }
 
 /* line 117, checkout.css.scss */
 .big {
-    font: 14px Tahoma, sans-serif !important;
+  font: 14px Tahoma, sans-serif !important;
 }
 
 /* line 122, checkout.css.scss */
 .button:hover {
-    background-image: url(/served_assets/checkout/button.png);
-    _background-image: none;
+  background-image: url(/served_assets/checkout/button.png);
+  _background-image: none;
 }
-
 /* line 126, checkout.css.scss */
 .button:active {
-    top: 1px;
+  top: 1px;
 }
-
 /* line 129, checkout.css.scss */
 .button::-moz-focus-inner {
-    border: 0;
-    padding: 0;
+  border: 0;
+  padding: 0;
 }
 
 /* line 135, checkout.css.scss */
 .page-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
 }
 
 /* line 141, checkout.css.scss */
 .page-subtitle {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 5px 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
 }
 
 /* line 147, checkout.css.scss */
 input.textfield, textarea, select {
-    border: 1px solid #dee0e1;
-    background: #FFFFFF;
+  border: 1px solid #dee0e1;
+  background: #FFFFFF;
 }
 
 /* line 152, checkout.css.scss */
 .set-sidetext {
-    width: 235px;
-    float: right;
-    clear: right;
-    margin: 10px 0;
+  width: 235px;
+  float: right;
+  clear: right;
+  margin: 10px 0;
 }
 
 /* line 159, checkout.css.scss */
 .set-sidebar {
-    border: 1px solid #dee0e1;
-    border-bottom: 0;
-    width: 235px;
-    float: right;
-    clear: right;
-    margin: 10px 0;
+  border: 1px solid #dee0e1;
+  border-bottom: 0;
+  width: 235px;
+  float: right;
+  clear: right;
+  margin: 10px 0;
 }
 
 /* line 168, checkout.css.scss */
 .userbar, .set-title {
-    background: #f3f3f4;
-    border-bottom: 1px solid #dee0e1;
-    padding: 8px 11px 7px;
-    font-weight: bold;
-    vertical-align: middle;
+  background: #f3f3f4;
+  border-bottom: 1px solid #dee0e1;
+  padding: 8px 11px 7px;
+  font-weight: bold;
+  vertical-align: middle;
 }
 
 /* line 176, checkout.css.scss */
 .userbar {
-    font-weight: normal;
-    margin-bottom: 15px;
-    border: 1px solid #dee0e1;
+  font-weight: normal;
+  margin-bottom: 15px;
+  border: 1px solid #dee0e1;
 }
-
 /* line 180, checkout.css.scss */
 .userbar .links {
-    word-spacing: 4px;
+  word-spacing: 4px;
 }
-
 /* line 182, checkout.css.scss */
 .userbar .links a {
-    word-spacing: normal;
+  word-spacing: normal;
 }
 
 /* line 188, checkout.css.scss */
 a.set-title {
-    display: block;
-    text-decoration: none;
-    font-weight: normal;
+  display: block;
+  text-decoration: none;
+  font-weight: normal;
 }
-
 /* line 192, checkout.css.scss */
 a.set-title img {
-    border: 0;
+  border: 0;
 }
 
 /* line 197, checkout.css.scss */
 .set-meta {
-    background: #f3f3f4;
-    border-bottom: 1px solid #dee0e1;
-    padding: 7px 15px 0;
+  background: #f3f3f4;
+  border-bottom: 1px solid #dee0e1;
+  padding: 7px 15px 0;
 }
 
 /* line 203, checkout.css.scss */
 .set-block {
-    border-bottom: 1px solid #dee0e1;
-    padding: 15px;
+  border-bottom: 1px solid #dee0e1;
+  padding: 15px;
 }
 
 /* line 208, checkout.css.scss */
 .set-list {
-    border-bottom: 1px solid #dee0e1;
-    max-height: 350px;
-    overflow-y: auto;
-    padding: 2px 5px;
-    margin: 0;
+  border-bottom: 1px solid #dee0e1;
+  max-height: 350px;
+  overflow-y: auto;
+  padding: 2px 5px;
+  margin: 0;
 }
 
 /* line 216, checkout.css.scss */
 .set-list-item {
-    display: block;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    padding: 5px;
-    margin: 3px 0;
+  display: block;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 3px 0;
 }
-
 /* line 223, checkout.css.scss */
 .set-list-item .img {
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 48px;
-    height: 48px;
-    border: 1px solid #dee0e1;
-    float: left;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #dee0e1;
+  float: left;
 }
-
 /* line 231, checkout.css.scss */
 .set-list-item .description {
-    float: right;
-    width: 146px;
+  float: right;
+  width: 146px;
 }
 
 /* line 237, checkout.css.scss */
 .set-status {
-    padding: 15px;
-    font-weight: bold;
-    border-bottom: 1px solid #dee0e1;
-    vertical-align: middle;
+  padding: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #dee0e1;
+  vertical-align: middle;
 }
 
 /* line 244, checkout.css.scss */
 .field {
-    padding: 5px 0;
+  padding: 5px 0;
 }
 
 /* line 248, checkout.css.scss */
 .field-label {
-    float: left;
-    width: 130px;
-    overflow: hidden;
-    font-weight: bold;
+  float: left;
+  width: 130px;
+  overflow: hidden;
+  font-weight: bold;
 }
 
 /* line 255, checkout.css.scss */
 .field-content {
-    float: right;
-    width: 480px;
+  float: right;
+  width: 480px;
 }
-
 /* line 258, checkout.css.scss */
 .field-content textarea {
-    width: 220px;
-    height: 40px;
-    max-width: 470px;
-    overflow: auto;
+  width: 220px;
+  height: 40px;
+  max-width: 470px;
+  overflow: auto;
 }
-
 /* line 264, checkout.css.scss */
 .field-content .textfield {
-    width: 220px;
-    max-width: 470px;
+  width: 220px;
+  max-width: 470px;
 }
-
 /* line 268, checkout.css.scss */
 .field-content input {
-    font: 12px Arial, sans-serif;
+  font: 12px Arial, sans-serif;
 }
 
 /* line 273, checkout.css.scss */
 button, textarea {
-    font: 12px Arial, sans-serif;
+  font: 12px Arial, sans-serif;
 }
 
 /* line 277, checkout.css.scss */
 .table {
-    width: 625px;
-    border-collapse: collapse;
+  width: 625px;
+  border-collapse: collapse;
 }
-
 /* line 280, checkout.css.scss */
 .table th, .table td {
-    padding: 4px 7px 4px 0px;
+  padding: 4px 7px 4px 0px;
 }
-
 /* line 283, checkout.css.scss */
 .table th {
-    text-align: left;
+  text-align: left;
 }
-
 /* line 287, checkout.css.scss */
 .table tfoot th, .table tfoot td {
-    border-top: 1px solid #dee0e1;
+  border-top: 1px solid #dee0e1;
 }
 
 /* line 293, checkout.css.scss */
 .price-field {
-    text-align: right !important;
-    white-space: nowrap;
+  text-align: right !important;
+  white-space: nowrap;
 }
 
 /* line 298, checkout.css.scss */
 .count {
-    text-align: center;
-    width: 5em;
+  text-align: center;
+  width: 5em;
 }
 
 /* line 303, checkout.css.scss */
 .warning {
-    color: red;
+  color: red;
 }
 
 /* line 307, checkout.css.scss */
 .error, .status-warning, .notice {
-    padding: 6px 7px 6px 26px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    margin: 0 3px 10px 3px;
-    vertical-align: middle;
-    background-position: 5px 5px;
-    background-repeat: no-repeat;
-    font-size: 11px;
-    font-weight: bold;
+  padding: 6px 7px 6px 26px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin: 0 3px 10px 3px;
+  vertical-align: middle;
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  font-size: 11px;
+  font-weight: bold;
 }
 
 /* line 320, checkout.css.scss */
 .error {
-    background-color: #f3c7c7;
-    background-image: url(/served_assets/checkout/icon-error.png);
-    color: #c7271f;
+  background-color: #f3c7c7;
+  background-image: url(/served_assets/checkout/icon-error.png);
+  color: #c7271f;
 }
 
 /* line 326, checkout.css.scss */
 .notice {
-    background-color: #8fff87;
-    background-image: url(/served_assets/checkout/icon-succeed.png);
-    color: #37763a;
+  background-color: #8fff87;
+  background-image: url(/served_assets/checkout/icon-succeed.png);
+  color: #37763a;
 }
 
 /* line 332, checkout.css.scss */
 .status-warning {
-    background-color: #e8e97d;
-    background-image: url(/served_assets/checkout/icon-warning.png);
-    color: #5b512c;
+  background-color: #e8e97d;
+  background-image: url(/served_assets/checkout/icon-warning.png);
+  color: #5b512c;
 }
 
 /* line 338, checkout.css.scss */
 .icon {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /* line 342, checkout.css.scss */
 .small {
-    font-size: 87%;
+  font-size: 87%;
 }
 
 /* line 346, checkout.css.scss */
 .gray {
-    color: gray;
+  color: gray;
 }
 
 /* line 350, checkout.css.scss */
 .green, .red {
-    padding: 3px;
-    margin-right: 10px;
+  padding: 3px;
+  margin-right: 10px;
 }
 
 /* line 355, checkout.css.scss */
 .green {
-    background: #8FFF87;
-    color: #37763A;
+  background: #8FFF87;
+  color: #37763A;
 }
 
 /* line 360, checkout.css.scss */
 .red {
-    background: #F3C7C7;
-    color: #C7271F;
+  background: #F3C7C7;
+  color: #C7271F;
 }
 
 /* line 365, checkout.css.scss */
 #top_info {
-    margin: 12px 0;
+  margin: 12px 0;
 }
 
 /* line 370, checkout.css.scss */
 table.variants {
-    width: 100%;
-    margin: 0 0 20px;
-    border-collapse: collapse;
+  width: 100%;
+  margin: 0 0 20px;
+  border-collapse: collapse;
 }
-
 /* line 374, checkout.css.scss */
 table.variants .price {
-    text-align: right;
-    white-space: nowrap;
-    vertical-align: top;
+  text-align: right;
+  white-space: nowrap;
+  vertical-align: top;
 }
-
 /* line 379, checkout.css.scss */
 table.variants .name {
-    padding-bottom: 18px;
-    max-width: 490px;
+  padding-bottom: 18px;
+  max-width: 490px;
 }
-
 /* line 383, checkout.css.scss */
 table.variants .radio {
-    width: 25px;
-    text-align: left;
-    padding: 0;
-    vertical-align: top;
+  width: 25px;
+  text-align: left;
+  padding: 0;
+  vertical-align: top;
 }
-
 /* line 388, checkout.css.scss */
 table.variants .radio input {
-    margin: 0;
+  margin: 0;
 }
-
 /* line 393, checkout.css.scss */
 table.payment_variants {
-    border-bottom: 1px solid #DEE0E1;
+  border-bottom: 1px solid #DEE0E1;
 }
 
 /* line 398, checkout.css.scss */
 #registered_client {
-    height: 200px;
+  height: 200px;
 }
-
 /* line 400, checkout.css.scss */
 #registered_client input.textfield {
-    width: 170px;
+  width: 170px;
 }
 
 /* line 405, checkout.css.scss */
 #regular_client input.textfield {
-    width: 170px;
+  width: 170px;
 }
 
 /* line 409, checkout.css.scss */
 #registered_client .field-content {
-    width: 190px;
+  width: 190px;
 }
 
 /* line 414, checkout.css.scss */
 #regular_client .field-content {
-    width: 200px;
+  width: 200px;
 }
-
 /* line 417, checkout.css.scss */
 #regular_client .field-label {
-    width: 110px;
+  width: 110px;
 }
 
 /* line 422, checkout.css.scss */
 #registered_client {
-    float: right;
-    border-left: 1px solid #ccc;
-    padding-left: 10px;
-    width: 280px;
+  float: right;
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
+  width: 280px;
 }
-
 /* line 427, checkout.css.scss */
 #registered_client .field-label {
-    width: 90px;
+  width: 90px;
 }
 
 /* line 432, checkout.css.scss */
 #regular_client {
-    width: 320px;
+  width: 320px;
 }
-
 /* line 434, checkout.css.scss */
 #regular_client small {
-    display: block;
-    width: 250px;
-    margin-left: 5px;
-    font-size: 85%;
+  display: block;
+  width: 250px;
+  margin-left: 5px;
+  font-size: 85%;
 }
 
 /* line 442, checkout.css.scss */
 #registered_client h3, #regular_client h3 {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 /* line 446, checkout.css.scss */
 .register .field-content {
-    float: right;
+  float: right;
 }
 
 /* line 450, checkout.css.scss */
 .past_step {
-    float: right;
-    font-weight: normal;
-    width: 390px;
+  float: right;
+  font-weight: normal;
+  width: 390px;
 }
-
 /* line 454, checkout.css.scss */
 .past_step span {
-    color: #999;
+  color: #999;
 }
-
 /* line 457, checkout.css.scss */
 .past_step a {
-    float: right;
+  float: right;
 }
 
 /* line 463, checkout.css.scss */
 .small_label .field-content {
-    width: 550px;
+  width: 550px;
 }
-
 /* line 466, checkout.css.scss */
 .small_label .field-label {
-    width: 90px;
+  width: 90px;
 }
 
 /* line 471, checkout.css.scss */
 .fieldWithErrors {
-    display: inline;
+  display: inline;
 }
-
 /* line 473, checkout.css.scss */
 .fieldWithErrors input, .fieldWithErrors textarea {
-    border: 1px solid #dc7878 !important;
-    padding: 3px 2px;
-    background: #f8e7e7 !important;
+  border: 1px solid #dc7878 !important;
+  padding: 3px 2px;
+  background: #f8e7e7 !important;
 }
 
 /* line 480, checkout.css.scss */
 .delivery_checkbox {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-
 /* line 482, checkout.css.scss */
 .delivery_checkbox input {
-    vertical-align: middle;
+  vertical-align: middle;
 }
-
 /* line 485, checkout.css.scss */
 .delivery_checkbox label {
-    font-size: 90%;
-    margin-left: 3px;
+  font-size: 90%;
+  margin-left: 3px;
 }
 
 /* line 491, checkout.css.scss */
 #flash_messages .message {
-    margin: 10px 17px;
+  margin: 10px 17px;
 }
 
 /* line 495, checkout.css.scss */
 .set {
-    border: 1px solid #dee0e1;
-    border-bottom: 0;
-    width: 655px;
-    float: left;
-    clear: left;
-    margin: 10px 0;
+  border: 1px solid #dee0e1;
+  border-bottom: 0;
+  width: 655px;
+  float: left;
+  clear: left;
+  margin: 10px 0;
 }
 
 /* line 504, checkout.css.scss */
 .wide_set {
-    width: 100% !important;
+  width: 100% !important;
 }
-
 /* line 506, checkout.css.scss */
 .wide_set .table {
-    width: 100% !important;
+  width: 100% !important;
 }
-
 /* line 509, checkout.css.scss */
 .wide_set .field-content {
-    width: 700px !important;
+  width: 700px !important;
 }
-
 /* line 512, checkout.css.scss */
 .wide_set .small_label .field-content {
-    width: 785px !important;
+  width: 785px !important;
 }
 
 /* line 517, checkout.css.scss */
 .table .highlited_row {
-    background: #F8F8F9;
+  background: #F8F8F9;
 }
 
 /* client cabinet */
 /* line 523, checkout.css.scss */
 .green_status {
-    background: #E0FCE0 !important;
+  background: #E0FCE0 !important;
 }
 
 /* line 527, checkout.css.scss */
 .grey_status {
-    background: #E8E8E8 !important;
+  background: #E8E8E8 !important;
 }
 
 /* задаётся отображение в custom_checkout.css (если без кастомизатора) */
 /* line 533, checkout.css.scss */
 #logo_bg {
-    height: 60px;
-    margin: 5px 10px 5px 0;
-    float: left;
-    display: none;
-    background-repeat: no-repeat;
-    background-position: center left;
+  height: 60px;
+  margin: 5px 10px 5px 0;
+  float: left;
+  display: none;
+  background-repeat: no-repeat;
+  background-position: center left;
 }
 
 /* line 542, checkout.css.scss */
 .bank_invoice_fio {
-    width: 310px;
+  width: 310px;
 }
 
 /* line 546, checkout.css.scss */
 .mail_ru_login, .vkontakte_login, .facebook_login {
-    padding-bottom: 2px;
-    vertical-align: middle;
-    position: relative;
-    width: 66px;
-    height: 18px;
-    line-height: 18px;
-    text-decoration: none;
-    display: inline-block;
+  padding-bottom: 2px;
+  vertical-align: middle;
+  position: relative;
+  width: 66px;
+  height: 18px;
+  line-height: 18px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 /* line 558, checkout.css.scss */
 #captcha_challenge img {
-    border: 0;
+  border: 0;
 }
-
 /* line 561, checkout.css.scss */
 #captcha_challenge a img {
-    margin-top: 10px;
-    vertical-align: top;
+  margin-top: 10px;
+  vertical-align: top;
 }
 
 /* line 567, checkout.css.scss */
 #kladr_house, #kladr_flat, #kladr_number, #kladr_manual_index, div.kladr {
-    padding: 3px;
+  padding: 3px;
 }
 
 /* line 571, checkout.css.scss */
 .not_available label {
-    opacity: 0.5;
+  opacity: 0.5;
 }
+#facebox {font-size:75%;}
+#facebox p{display:block !important;}
 
 #facebox {
-    font-size: 75%;
-}
-
-#facebox p {
-    display: block !important;
-}
-
-#facebox {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    text-align: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  text-align: left;
 }
 
 #facebox .popup {
-    position: relative;
+  position: relative;
 }
-
 /*
 #facebox table {
   border-collapse: collapse;
@@ -728,38 +687,36 @@ table.payment_variants {
 */
 
 #facebox td {
-    border-bottom: 0;
-    padding: 0;
+  border-bottom: 0;
+  padding: 0;
 }
 
 #facebox table.form tr td {
-    padding: 3px;
+  padding: 3px;
 }
 
+
 #facebox .body {
-    border: 1px solid #DDDDDD;
-    padding: 10px;
-    background: #fff;
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+  background: #fff;
 }
 
 #facebox .loading {
-    text-align: center;
+  text-align: center;
 }
 
 #facebox .image {
-    text-align: center;
+  text-align: center;
 }
 
-#facebox form {
-    border: 0px
-}
+#facebox form {border: 0px}
 
 #facebox img {
-    display: none;
-    border: 0;
-    margin: 0;
+  display: none;
+  border: 0;
+  margin: 0;
 }
-
 /*
 #facebox .content_fb {
   width: 300px;
@@ -767,46 +724,45 @@ table.payment_variants {
 }
 */
 #facebox {
-    width: 350px !important;
+  width: 350px !important;
 }
 
 #facebox .fb_footer {
-    display: none;
-    padding: 0;
-    margin: 0;
-    position: relative !important;
-    height: auto !important;
+  display: none;
+  padding: 0;
+  margin: 0;
+  position:relative !important;
+  height:auto !important;
 }
 
 #facebox .tl, #facebox .tr, #facebox .bl, #facebox .br {
-    height: 2px;
-    width: 2px;
-    overflow: hidden;
-    padding: 0;
+  height: 2px;
+  width: 2px;
+  overflow: hidden;
+  padding: 0;
 }
 
 #facebox_overlay {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
 }
 
 .facebox_hide {
-    z-index: -100;
+  z-index:-100;
 }
 
 .facebox_overlayBG {
-    background-color: #000;
-    z-index: 99;
+  background-color: #000;
+  z-index: 99;
 }
 
 * html #facebox_overlay { /* ie6 hack */
-    position: absolute;
-    height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+  position: absolute;
+  height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
 }
-
 /*
 
 

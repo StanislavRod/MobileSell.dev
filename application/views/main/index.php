@@ -421,7 +421,7 @@
     </script>
     <!-- /InsalesCounter -->
 
-    <title>Название магазина</title>
+    <title>GADGE|SQUARE</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="Название магазина">
     <meta name="keywords" content="Название магазина">
@@ -546,10 +546,12 @@
 </noscript>
 <div class="header-container">
     <div class="page">
-        <div class="header"><a href="/" title="Название магазина" class="logo clearfix"><img
-                        src="/served_assets/img/loaded_logo.png"
-                        alt="Название магазина"> </a>
+        <div class="header">
+            <a href="/" title="GADGE|SQUARE" class="logo clearfix">
+                <img  src="/served_assets/img/loaded_logo.png" alt="Название магазина">
+            </a>
             <div class="quick-access">
+
                 <div class="clear"></div>
                 <div class="welcome-msg"><span><span>(495) 123-45-67</span></span></div>
                 <div class="clear"></div>
@@ -558,11 +560,9 @@
 
                     <li class="first "><a href="/" class="active" title="Главная">Главная<span></span></a></li>
 
-                    <li class=" "><a href="/delivery" title="Условия доставки">Условия доставки<span></span></a>
-                    </li>
+                    <li class=" "><a href="/delivery" title="Условия доставки">Условия доставки<span></span></a></li>
 
-                    <li class=" "><a href="/login" title="Личный кабинет">Личный кабинет<span></span></a>
-                    </li>
+                    <li class=" "><a href="/client_account/login" title="Личный кабинет">Личный кабинет<span></span></a></li>
 
                     <li class=" last"><a href="/news" title="Новости">Новости<span></span></a></li>
 
@@ -596,26 +596,27 @@
         <div class="nav-container">
             <ul id="nav">
 
-                <li class=" first  level-top"><a href="/product/"
-                                                 class="  level-top"><span>Планшеты</span></a>
+                <li class=" first  level-top"><a href="/product/" class="level-top"><span>Планшеты</span></a>
                 </li>
 
-                <li class="   level-top"><a href="/product/" class="  level-top"><span>Смартфоны</span></a>
+                <li class="   level-top"><a href="/product/" class="level-top"><span>Смартфоны</span></a>
                 </li>
 
-                <li class="   level-top"><a href="/product/"
-                                            class="  level-top"><span>Фото и видео</span></a>
+                <li class="   level-top"><a href="/product/" class="  level-top"><span>Фото и видео</span></a>
                     <ul>
 
-                        <li class=" first "><a href="/product/"><span>Объективы </span></a></li>
+                        <li class=" first ">
+                            <a href="/product/">
+                                <span>Объективы </span>
+                            </a>
+                        </li>
 
-                        <li class="  last"><a href="/product/"><span>Вспышки </span></a></li>
+                        <li class="last"><a href="/product/"><span>Вспышки </span></a></li>
 
                     </ul>
                 </li>
 
-                <li class="  last level-top"><a href="/product/"
-                                                class="  level-top"><span>Аксессуары</span></a></li>
+                <li class="last level-top"><a href="/product/" class="level-top"><span>Аксессуары</span></a></li>
 
             </ul>
         </div>
