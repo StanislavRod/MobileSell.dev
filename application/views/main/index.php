@@ -402,7 +402,8 @@
             cufon canvas {
                 display: none !important;
             }
-        }</style>
+        }
+    </style>
     <style type="text/css"></style>
     <!--InsalesCounter -->
     <script type="text/javascript">
@@ -426,9 +427,9 @@
     <meta name="description" content="Название магазина">
     <meta name="keywords" content="Название магазина">
     <meta name="robots" content="index,follow">
-    <link rel="stylesheet" type="text/css"
-          href="/served_assets/css/theme.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/served_assets/css/theme.css" media="all">
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+
     <script type="text/javascript" src="/served_assets/js/empty.js"></script>
     <script type="text/javascript"
             src="/served_assets/js/jq.slider.js"></script>

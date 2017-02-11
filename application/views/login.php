@@ -7,23 +7,6 @@
     <meta name='default-locale' content='ru'/>
     <meta name='insales-redefined-api-methods' content="[]"/>
     <script src="/served_assets/js/shop_bundle-ce306071be6801f7eae474fcd5d36b88.js" type="text/javascript"></script>
-    <!--InsalesCounter -->
-    <script type="text/javascript">
-        if (typeof(__id) == 'undefined') {
-            var __id = 79355;
-
-            (function () {
-                var ic = document.createElement('script');
-                ic.type = 'text/javascript';
-                ic.async = true;
-                ic.src = '/javascripts/insales_counter.js?5';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(ic, s);
-            })();
-        }
-    </script>
-    <!-- /InsalesCounter -->
-
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
     <script type="text/javascript">window.NREUM || (NREUM = {});
         NREUM.info = {
@@ -241,14 +224,15 @@
                 l[p] ? (l[p]("DOMContentLoaded", i, !1), s[p]("load", r, !1)) : (l[d]("onreadystatechange", o), s[d]("onload", r)), u("mark", ["firstbyte", a()], null, "api");
                 var h = 0
             }, {}]
-        }, {}, ["loader"]);</script>
+        }, {}, ["loader"]);
+    </script>
     <meta content='noindex, nofollow' name='robots'>
     <title>Вход в кабинет покупателя
     </title>
     <link href="/served_assets/css/checkout-69769e705ab952b0c34379965d46141c.css" media="screen" rel="stylesheet"
           type="text/css"/>
     <link href='/served_assets/css/custom_checkout.css' rel='stylesheet'>
-
+    <script type="text/javascript" src="/served_assets/js/dev.js"></script>
 </head>
 <body>
 <div class='header-bg'>
